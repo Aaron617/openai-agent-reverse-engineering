@@ -25,9 +25,39 @@ The OpenAI agent container is organized into four main directories with distinct
 
 ### Documentation & Workflows
 - Skills documentation in `/home/oai/skills/` providing structured workflows for:
-  - Document processing (DOCX → PDF → PNG verification)
-  - PDF generation with visual validation
-  - Spreadsheet creation and formatting
+  - **Document Processing** (`docs/skill.md`) - Complete DOCX manipulation workflow:
+    - Reading/writing DOCX files using `python-docx`
+    - **Critical validation step**: Convert to PDF with LibreOffice, then to PNG for visual inspection
+    - This "render→inspect→fix" pattern prevents layout issues in generated documents
+  - **PDF Generation** (`pdfs/skill.md`) - Professional PDF creation workflow:
+    - Using `reportlab` for structured PDF generation
+    - **Mandatory rasterization**: Convert PDF pages to PNG images for verification
+    - Special handling for tables, graphics, and complex layouts to avoid rendering errors
+  - **Spreadsheet Operations** (`spreadsheets/skill.md`) - Excel file manipulation:
+    - Integration with `artifact_tool` and `openpyxl` for cell operations
+    - Style guidelines and formatting standards
+    - Data validation and consistency checks
+
+#### Skills System Architecture (Parallel to Claude Skills)
+The OpenAI agent's skills system is architecturally identical to Claude's skill framework:
+
+- **Skill Definition**: Each tool has a dedicated `.md` file defining:
+  - Required dependencies and imports
+  - Step-by-step execution patterns
+  - Error handling and edge cases
+  - Quality validation checkpoints
+
+- **Mandatory Workflows**: Unlike unconstrained code generation, skills enforce:
+  - Specific library usage patterns (e.g., LibreOffice for document conversion)
+  - Validation through visual inspection (PNG rendering)
+  - Iterative refinement loops (generate → validate → fix)
+
+- **Tool Isolation**: Each skill operates within its own context with:
+  - Dedicated import paths and tool wrappers
+  - Standardized error reporting
+  - Output format requirements
+
+This design ensures consistent, reliable outputs from generative tools - a critical requirement when agents must produce production-quality documents and data artifacts.
 
 ### Orchestration
 - supervisord manages all services as a cohesive stack

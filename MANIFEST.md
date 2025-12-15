@@ -23,8 +23,15 @@ This document details what has been captured from the OpenAI agent container ana
 
 #### User Workspace
 - `home/` - Complete copy of `/home/oai` directory (465KB)
-  - `skills/` - Tool usage documentation and workflows
-  - `share/` - Exportable artifacts directory with sync scripts
+  - `skills/` - Structured skill definitions (mirroring Claude's skill architecture):
+    - `docs/skill.md` - Document processing workflow with mandatory visual validation
+    - `pdfs/skill.md` - PDF generation with rasterization requirements
+    - `spreadsheets/skill.md` - Excel manipulation with style guidelines
+    - Each skill enforces specific patterns: generate → validate → fix
+  - `share/` - Exportable artifacts directory with sync scripts:
+    - `slides/` - Presentation rendering pipeline (LibreOffice → PDF → PNG)
+    - JS helpers for layout and image processing
+    - `sync_share` daemon for automatic rsync to remote storage
   - Configuration files and user utilities
 
 #### Data Volume
@@ -80,8 +87,44 @@ The container runs a multi-service stack orchestrated by supervisord:
 - Isolated execution environments
 - Process lifecycle management
 
-### Workflow Patterns
-Skills documentation enforces a "render → inspect → fix" pattern:
-- Documents: Create → LibreOffice → PDF → PNG verification
-- Spreadsheets: Generate → Style → Visual validation
-- Code: Execute → Callback → UI display
+### Skills Architecture (Identical to Claude Skills System)
+
+The skills system implements the same architectural pattern as Claude's skill framework:
+
+#### Core Design Principles
+1. **Structured Workflows** - Each skill is a documented process, not just a function
+2. **Mandatory Validation** - Visual output verification prevents generative errors
+3. **Tool Encapsulation** - Skills wrap complex operations behind simple interfaces
+4. **Iterative Refinement** - Built-in loops for fix → validate → retry
+
+#### Document Processing Skill (`docs/skill.md`)
+```python
+# Pattern enforced by the skill:
+1. Use python-docx for document creation/editing
+2. Save as .docx
+3. Convert to PDF via LibreOffice (mandatory)
+4. Rasterize PDF to PNG for visual inspection
+5. Fix any layout issues observed in PNG
+6. Repeat until satisfactory
+```
+
+#### PDF Generation Skill (`pdfs/skill.md`)
+```python
+# Pattern enforced by the skill:
+1. Use reportlab for PDF structure
+2. Generate PDF with precise positioning
+3. Convert to PNG page-by-page
+4. Visually inspect tables, graphics, text flow
+5. Adjust parameters and regenerate as needed
+```
+
+#### Spreadsheet Skill (`spreadsheets/skill.md`)
+```python
+# Pattern enforced by the skill:
+1. Use artifact_tool/openpyxl for cell operations
+2. Apply standardized styling
+3. Validate data consistency
+4. Export with proper formatting
+```
+
+This structured approach ensures that despite using generative AI, the outputs maintain professional quality and consistency - the same challenge Claude's skill system solves.
