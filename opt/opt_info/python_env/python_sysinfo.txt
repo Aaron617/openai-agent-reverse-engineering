@@ -1,0 +1,6 @@
+executable: /opt/pyvenv/bin/python
+version: 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]
+prefix: /opt/pyvenv
+base_prefix: /usr
+platform: Linux-4.4.0-x86_64-with-glibc2.36
+sitepackages: ['/opt/pyvenv/lib/python3.11/site-packages', '/opt/pyvenv/local/lib/python3.11/dist-packages', '/opt/pyvenv/lib/python3/dist-packages', '/opt/pyvenv/lib/python3.11/dist-packages']

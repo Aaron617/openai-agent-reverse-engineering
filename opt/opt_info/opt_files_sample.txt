@@ -1,0 +1,2000 @@
+/opt/nvm/Makefile	5440
+/opt/nvm/.travis.yml	3283
+/opt/nvm/bash_completion	2299
+/opt/nvm/update_test_mocks.sh	2478
+/opt/nvm/ROADMAP.md	882
+/opt/nvm/.mailmap	51
+/opt/nvm/test/sourcing/teardown_dir	146
+/opt/nvm/test/sourcing/Sourcing nvm.sh should keep version if one is active	629
+/opt/nvm/test/sourcing/setup_dir	373
+/opt/nvm/test/sourcing/Sourcing nvm.sh with --install and .nvmrc should install it	933
+/opt/nvm/test/sourcing/Sourcing nvm.sh global alias bug	863
+/opt/nvm/test/sourcing/Sourcing nvm.sh with no default should return 0	314
+/opt/nvm/test/sourcing/Sourcing nvm.sh with --install should install the default	1206
+/opt/nvm/test/sourcing/Sourcing nvm.sh with --no-use should not use anything	992
+/opt/nvm/test/sourcing/Sourcing nvm.sh should use the default if available and no nvm node is loaded	1173
+/opt/nvm/test/install_script/nvm_install_dir	677
+/opt/nvm/test/install_script/nvm_download	527
+/opt/nvm/test/install_script/nvm_install_with_node_version	303
+/opt/nvm/test/install_script/nvm_profile_is_bash_or_zsh	817
+/opt/nvm/test/install_script/nvm_reset	1376
+/opt/nvm/test/install_script/nvm_source	3110
+/opt/nvm/test/install_script/nvm_check_global_modules	2043
+/opt/nvm/test/install_script/nvm_do_install	645
+/opt/nvm/test/install_script/nvm_install_with_aliased_dot	454
+/opt/nvm/test/install_script/nvm_detect_profile	5118
+/opt/nvm/test/install_script/install_nvm_from_git	4128
+/opt/nvm/test/installation_iojs/teardown_dir	243
+/opt/nvm/test/installation_iojs/setup_dir	62
+/opt/nvm/test/installation_iojs/install two versions and use the latest one	924
+/opt/nvm/test/installation_iojs/install version specified in .nvmrc from binary	652
+/opt/nvm/test/installation_iojs/install from source	664
+/opt/nvm/test/installation_iojs/install already installed uses it	1007
+/opt/nvm/test/installation_iojs/nvm install v1 works	679
+/opt/nvm/test/installation_iojs/install version specified in .nvmrc from source	632
+/opt/nvm/test/installation_iojs/install while reinstalling packages	1161
+/opt/nvm/test/installation_iojs/install from binary	996
+/opt/nvm/test/common.sh	5192
+/opt/nvm/test/xenial/install from source with thread parameter	950
+/opt/nvm/test/xenial/node 0.6.21 should install 0.6.21-pre	324
+/opt/nvm/test/xenial/install from source without V8 snapshot for ARM	762
+/opt/nvm/test/xenial/install from source	834
+/opt/nvm/test/xenial/install version specified in .nvmrc from source	514
+/opt/nvm/test/xenial/install hook	1404
+/opt/nvm/test/xenial/install from source implicitly	587
+/opt/nvm/test/installation_node/install with --alias	244
+/opt/nvm/test/installation_node/teardown_dir	268
+/opt/nvm/test/installation_node/install on bash with ERR trap and set -E	1005
+/opt/nvm/test/installation_node/install latest npm	2437
+/opt/nvm/test/installation_node/setup_dir	62
+/opt/nvm/test/installation_node/install two versions and use the latest one	682
+/opt/nvm/test/installation_node/install from source with thread parameter	950
+/opt/nvm/test/installation_node/install version specified in .nvmrc from binary	510
+/opt/nvm/test/installation_node/install from source without V8 snapshot for ARM	762
+/opt/nvm/test/installation_node/install with --latest-npm	269
+/opt/nvm/test/installation_node/install from source	834
+/opt/nvm/test/installation_node/install already installed uses it	705
+/opt/nvm/test/installation_node/install with --default	251
+/opt/nvm/test/installation_node/install from binary with binary flag set	1551
+/opt/nvm/test/installation_node/install LTS	1189
+/opt/nvm/test/installation_node/default-packages	2666
+/opt/nvm/test/installation_node/install hook	1404
+/opt/nvm/test/installation_node/install while reinstalling packages	1568
+/opt/nvm/test/installation_node/install from binary	678
+/opt/nvm/test/mocks/isainfo_amd64	70
+/opt/nvm/test/mocks/pkg_info_x86	12
+/opt/nvm/test/mocks/isainfo_x86	63
+/opt/nvm/test/mocks/pkg_info_amd64	153
+/opt/nvm/test/mocks/pkg_info_fail	7
+/opt/nvm/test/mocks/uname_osx_amd64	188
+/opt/nvm/test/mocks/uname_linux_armv8l	157
+/opt/nvm/test/mocks/uname_osx_x86	182
+/opt/nvm/test/mocks/uname_smartos_amd64	123
+/opt/nvm/test/mocks/uname_smartos_x86	123
+/opt/nvm/test/fast/nvm should remove the last trailing slash in $NVM_DIR	395
+/opt/nvm/test/fast/Sourcing nvm.sh should make the nvm command available	41
+/opt/nvm/test/fast/teardown_dir	157
+/opt/nvm/test/fast/Aliases/Running 'nvm alias ˂aliasname˃ ˂target˃' again should change the target	864
+/opt/nvm/test/fast/Aliases/Running 'nvm alias' should list all aliases	3057
+/opt/nvm/test/fast/Aliases/nvm_ensure_default_set	695
+/opt/nvm/test/fast/Aliases/Running 'nvm alias ˂aliasname˃' should list but one alias	75
+/opt/nvm/test/fast/Aliases/'nvm unalias' should not accept aliases with slashes	1312
+/opt/nvm/test/fast/Aliases/circular/teardown	161
+/opt/nvm/test/fast/Aliases/circular/nvm_resolve_alias	1654
+/opt/nvm/test/fast/Aliases/circular/nvm_resolve_local_alias	1714
+/opt/nvm/test/fast/Aliases/circular/setup	193
+/opt/nvm/test/fast/Aliases/teardown	492
+/opt/nvm/test/fast/Aliases/'nvm alias' should not accept aliases with slashes	1324
+/opt/nvm/test/fast/Aliases/Running 'nvm alias' lists implicit aliases when they do not exist	1249
+/opt/nvm/test/fast/Aliases/nvm_resolve_alias	1654
+/opt/nvm/test/fast/Aliases/'nvm unalias' should not accept aliases with names equal to built-in alias	1278
+/opt/nvm/test/fast/Aliases/nvm_list_aliases works with LTS aliases	720
+/opt/nvm/test/fast/Aliases/nvm_list_aliases works with no LTS aliases present	375
+/opt/nvm/test/fast/Aliases/Running 'nvm alias' lists manual aliases instead of implicit aliases when present	1665
+/opt/nvm/test/fast/Aliases/nvm_resolve_local_alias	1544
+/opt/nvm/test/fast/Aliases/nvm_print_alias_path calls nvm_get_colors	647
+/opt/nvm/test/fast/Aliases/nvm_list_aliases calls nvm_get_colors	514
+/opt/nvm/test/fast/Aliases/nvm_print_formatted_alias calls nvm_get_colors	648
+/opt/nvm/test/fast/Aliases/lts/teardown_dir	195
+/opt/nvm/test/fast/Aliases/lts/setup_dir	191
+/opt/nvm/test/fast/Aliases/lts/'nvm alias' should ensure LTS alias dir exists	355
+/opt/nvm/test/fast/Aliases/'nvm alias' should not accept aliases with a hash	1353
+/opt/nvm/test/fast/Aliases/'nvm alias' should ignore leading blank lines in the file	456
+/opt/nvm/test/fast/Aliases/setup	334
+/opt/nvm/test/fast/Aliases/'nvm unalias' should accept aliases when they shadow a built-in alias	658
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should include 'system' when appropriate	530
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls stable' and 'nvm ls unstable' should return the appropriate implicit alias	902
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls system' should include 'system' when appropriate	558
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls 0.0.2' should display only version 0.0.2	411
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls io' should return NA	56
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls foo' should return a nonzero exit code when not found	73
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should not show a trailing slash	819
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls node_' should return a nonzero exit code when not found	59
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should filter out '.nvm'	192
+/opt/nvm/test/fast/Listing versions/teardown	384
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' calls into nvm_alias	890
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' with node-like versioning vx.x.x should only list a matched version	188
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should filter out 'versions'	199
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls --no-alias' does not call into nvm_alias	896
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls --no-alias' with a pattern errors	500
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should list versions in the 'versions' directory	320
+/opt/nvm/test/fast/Listing versions/Using a nonstandard IFS should not break	297
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' should display all installed versions	1266
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls 0.2' should display only 0.2.x versions	861
+/opt/nvm/test/fast/Listing versions/Running 'nvm ls' with nounset should not fail	622
+/opt/nvm/test/fast/Running 'nvm unalias' should remove the alias file	147
+/opt/nvm/test/fast/setup_dir	195
+/opt/nvm/test/fast/Running 'nvm unload' should unset all function and variables	723
+/opt/nvm/test/fast/Running 'nvm use iojs' uses latest io.js version	1029
+/opt/nvm/test/fast/Listing paths/Running 'nvm which 0.0.2' should display only version 0.0.2	854
+/opt/nvm/test/fast/Listing paths/teardown	71
+/opt/nvm/test/fast/Listing paths/Running 'nvm which foo' should return a nonzero exit code when not found	78
+/opt/nvm/test/fast/Running 'nvm install' with an invalid version fails nicely	412
+/opt/nvm/test/fast/teardown	196
+/opt/nvm/test/fast/Running 'nvm use x' should create and change the 'current' symlink	770
+/opt/nvm/test/fast/Running 'nvm uninstall' with incorrect file permissions fails nicely	320
+/opt/nvm/test/fast/Running 'nvm deactivate' should unset the nvm environment variables	1010
+/opt/nvm/test/fast/Running 'nvm use system' should work as expected	1556
+/opt/nvm/test/fast/Running 'nvm current' should display current nvm environment	266
+/opt/nvm/test/fast/Running 'nvm uninstall' should remove the appropriate directory	116
+/opt/nvm/test/fast/Running 'nvm use x' should not create the 'current' symlink if $NVM_SYMLINK_CURRENT is false	2025
+/opt/nvm/test/fast/Unit tests/nvm_print_color_code	644
+/opt/nvm/test/fast/Unit tests/nvm_curl_libz_support	1252
+/opt/nvm/test/fast/Unit tests/nvm_node_prefix	178
+/opt/nvm/test/fast/Unit tests/nvm_is_merged_node_version	426
+/opt/nvm/test/fast/Unit tests/nvm_get_download_slug	4407
+/opt/nvm/test/fast/Unit tests/nvm_print_default_alias	1266
+/opt/nvm/test/fast/Unit tests/nvm_print_alias_path	1565
+/opt/nvm/test/fast/Unit tests/nvm_change_path	2160
+/opt/nvm/test/fast/Unit tests/nvm_download_artifact	2037
+/opt/nvm/test/fast/Unit tests/nvm_extract_tarball	863
+/opt/nvm/test/fast/Unit tests/nvm_ls_remote LTS aliases	1261
+/opt/nvm/test/fast/Unit tests/nvm_get_arch	2201
+/opt/nvm/test/fast/Unit tests/nvm_strip_iojs_prefix	521
+/opt/nvm/test/fast/Unit tests/nvm_print_implicit_alias errors	1380
+/opt/nvm/test/fast/Unit tests/nvm_version_dir	608
+/opt/nvm/test/fast/Unit tests/nvm_get_latest missing curl or wget	455
+/opt/nvm/test/fast/Unit tests/nvm_version_path	692
+/opt/nvm/test/fast/Unit tests/nvm_die_on_prefix	10679
+/opt/nvm/test/fast/Unit tests/nvm_has_solaris_binary	963
+/opt/nvm/test/fast/Unit tests/nvm_has_system_node	354
+/opt/nvm/test/fast/Unit tests/nvm_download	1276
+/opt/nvm/test/fast/Unit tests/nvm_num_version_groups	1160
+/opt/nvm/test/fast/Unit tests/nvm_get_artifact_compression	661
+/opt/nvm/test/fast/Unit tests/nvm_ensure_default_set	523
+/opt/nvm/test/fast/Unit tests/nvm_install_binary_nosource	953
+/opt/nvm/test/fast/Unit tests/nvm install -b	425
+/opt/nvm/test/fast/Unit tests/nvm_get_colors	3144
+/opt/nvm/test/fast/Unit tests/nvm_print_npm_version	623
+/opt/nvm/test/fast/Unit tests/nvm_version_greater	387
+/opt/nvm/test/fast/Unit tests/nvm_strip_path	943
+/opt/nvm/test/fast/Unit tests/nvm set_colors	1881
+/opt/nvm/test/fast/Unit tests/nvm_get_checksum	1215
+/opt/nvm/test/fast/Unit tests/nvm_find_up	907
+/opt/nvm/test/fast/Unit tests/nvm_remote_version	3186
+/opt/nvm/test/fast/Unit tests/nvm_alias LTS-N	1023
+/opt/nvm/test/fast/Unit tests/nvm_ensure_version_prefix	639
+/opt/nvm/test/fast/Unit tests/nvm_process_nvmrc	1230
+/opt/nvm/test/fast/Unit tests/nvm_install_binary_extract	1757
+/opt/nvm/test/fast/Unit tests/nvm_curl_version	865
+/opt/nvm/test/fast/Unit tests/nvm_stdout_is_terminal	1805
+/opt/nvm/test/fast/Unit tests/nvm_normalize_lts	1556
+/opt/nvm/test/fast/Unit tests/nvm_get_checksum_alg	272
+/opt/nvm/test/fast/Unit tests/nvm_use_if_needed	496
+/opt/nvm/test/fast/Unit tests/nvm_is_alias	520
+/opt/nvm/test/fast/Unit tests/nvm_write_nvmrc	1748
+/opt/nvm/test/fast/Unit tests/nvm ls-remote	3065
+/opt/nvm/test/fast/Unit tests/nvm_alias	1030
+/opt/nvm/test/fast/Unit tests/nvm_alias_path	164
+/opt/nvm/test/fast/Unit tests/nvm_compute_checksum	811
+/opt/nvm/test/fast/Unit tests/nvm_get_mirror	2010
+/opt/nvm/test/fast/Unit tests/Running 'nvm use --silent --save' doesn't output anything	1238
+/opt/nvm/test/fast/Unit tests/nvm_ls_remote_iojs	1059
+/opt/nvm/test/fast/Unit tests/nvm_curl_use_compression	1750
+/opt/nvm/test/fast/Unit tests/nvm_add_iojs_prefix	408
+/opt/nvm/test/fast/Unit tests/nvm_print_implicit_alias success	3316
+/opt/nvm/test/fast/Unit tests/Running 'nvm use --save' works as expected'	1356
+/opt/nvm/test/fast/Unit tests/nvm_has	352
+/opt/nvm/test/fast/Unit tests/nvm_iojs_prefix	178
+/opt/nvm/test/fast/Unit tests/nvm_check_for_help	306
+/opt/nvm/test/fast/Unit tests/nvm_install_no_progress_bar	2601
+/opt/nvm/test/fast/Unit tests/nvm_version	1859
+/opt/nvm/test/fast/Unit tests/nvm_ls_remote nightly	2636
+/opt/nvm/test/fast/Unit tests/Running 'nvm use --save' works with a .nvmrc in the parent dir	1196
+/opt/nvm/test/fast/Unit tests/nvm_validate_implicit_alias	1041
+/opt/nvm/test/fast/Unit tests/nvm_node_version_has_solaris_binary	1180
+/opt/nvm/test/fast/Unit tests/nvm_wrap_with_color_code	1
+/opt/nvm/test/fast/Unit tests/nvm_ls_current	1539
+/opt/nvm/test/fast/Unit tests/nvm_format_version	655
+/opt/nvm/test/fast/Unit tests/nvm_is_version_installed	1511
+/opt/nvm/test/fast/Unit tests/nvm_get_checksum_binary	399
+/opt/nvm/test/fast/Unit tests/nvm_ls_remote	2796
+/opt/nvm/test/fast/Unit tests/nvm_remote_versions	3303
+/opt/nvm/test/fast/Unit tests/nvm_has_system_iojs	375
+/opt/nvm/test/fast/Unit tests/Running 'nvm install --save' works as expected'	1364
+/opt/nvm/test/fast/Unit tests/nvm_supports_xz	884
+/opt/nvm/test/fast/Unit tests/nvm_is_iojs_version	381
+/opt/nvm/test/fast/Unit tests/nvm version-remote	2271
+/opt/nvm/test/fast/Unit tests/nvm_install_latest_npm	1337
+/opt/nvm/test/fast/Unit tests/nvm_compare_checksum	2728
+/opt/nvm/test/fast/Unit tests/nvm_is_valid_version	625
+/opt/nvm/test/fast/Unit tests/nvm_ensure_version_installed	3274
+/opt/nvm/test/fast/Unit tests/nvm_get_minor_version	1023
+/opt/nvm/test/fast/Unit tests/nvm_get_default_packages	2057
+/opt/nvm/test/fast/Unit tests/nvm_make_alias	770
+/opt/nvm/test/fast/Unit tests/mocks/nodejs.org-download-nightly-index.tab	207673
+/opt/nvm/test/fast/Unit tests/mocks/nodejs.org-dist-index.tab	179944
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote stable.txt	8
+/opt/nvm/test/fast/Unit tests/mocks/nvm ls-remote lts.txt	10147
+/opt/nvm/test/fast/Unit tests/mocks/LTS_names.txt	68
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote LTS argon.txt	470
+/opt/nvm/test/fast/Unit tests/mocks/lts-star.txt	8
+/opt/nvm/test/fast/Unit tests/mocks/nvm ls-remote.txt	19203
+/opt/nvm/test/fast/Unit tests/mocks/iojs.org-dist-index.tab	7395
+/opt/nvm/test/fast/Unit tests/mocks/nvm_print_implicit_alias remote stable nightly.txt	5
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote LTS nightly.txt	301
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote nightly.txt	1849
+/opt/nvm/test/fast/Unit tests/mocks/nvm ls-remote node.txt	18547
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote.txt	7794
+/opt/nvm/test/fast/Unit tests/mocks/nvm ls-remote iojs.txt	656
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote_iojs.txt	492
+/opt/nvm/test/fast/Unit tests/mocks/nvm_print_implicit_alias remote stable.txt	5
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote LTS.txt	3645
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote LTS nightly argon.txt	4
+/opt/nvm/test/fast/Unit tests/mocks/nvm_ls_remote stable nightly.txt	34
+/opt/nvm/test/fast/Unit tests/mocks/nvm_make_alias LTS alias calls.txt	209
+/opt/nvm/test/fast/Unit tests/nvm_has_non_aliased	840
+/opt/nvm/test/fast/Unit tests/nvm_tree_contains_path	1021
+/opt/nvm/test/fast/Unit tests/nvm_find_project_dir	1487
+/opt/nvm/test/fast/Unit tests/nvm_iojs_version_has_solaris_binary	596
+/opt/nvm/test/fast/Unit tests/nvm install with nonlowercase LTS name	860
+/opt/nvm/test/fast/Unit tests/nvm_get_arch_unofficial	2662
+/opt/nvm/test/fast/Unit tests/nvm_command_info	1878
+/opt/nvm/test/fast/Unit tests/nvm_is_natural_num	591
+/opt/nvm/test/fast/Unit tests/nvm_clang_version	1608
+/opt/nvm/test/fast/Sourcing nvm.sh should not modify parameters of caller	62
+/opt/nvm/test/fast/setup	189
+/opt/nvm/test/fast/Running 'nvm use foo' where 'foo' is circular aborts	992
+/opt/nvm/test/fast/Set Colors/nvm_echo_with_colors	342
+/opt/nvm/test/fast/Set Colors/nvm_print_default_alias calls nvm_get_colors	581
+/opt/nvm/test/fast/Set Colors/nvm_err_with_colors	331
+/opt/nvm/test/fast/Set Colors/nvm_print_versions calls nvm_get_colors	1091
+/opt/nvm/test/fast/Running 'nvm install' with '--reinstall-packages-from' requires a valid version	2548
+/opt/nvm/test/fast/Running 'nvm use' should drop CR char automatically	512
+/opt/nvm/test/fast/Running 'nvm alias' should create a file in the alias directory	146
+/opt/nvm/test/slow/nvm_get_latest/nvm_get_latest	4938
+/opt/nvm/test/slow/nvm_get_latest/nvm_get_latest failed redirect	518
+/opt/nvm/test/slow/nvm uninstall/teardown_dir	66
+/opt/nvm/test/slow/nvm uninstall/setup_dir	49
+/opt/nvm/test/slow/nvm uninstall/Running 'nvm uninstall' with incorrect file permissions fails nicely	849
+/opt/nvm/test/slow/nvm uninstall/Running 'nvm uninstall 0.12.6' uninstalls v0.12.6	739
+/opt/nvm/test/slow/nvm use/teardown_dir	519
+/opt/nvm/test/slow/nvm use/Running 'nvm use' calls 'nvm_die_on_prefix'	642
+/opt/nvm/test/slow/nvm use/setup_dir	530
+/opt/nvm/test/slow/nvm use/Running 'nvm use' with nvmrc containing not installed version	881
+/opt/nvm/test/slow/nvm use/Running 'nvm use iojs' uses latest io.js version	536
+/opt/nvm/test/slow/nvm use/Running 'nvm use v1.0.0' uses iojs-v1.0.0 iojs version	560
+/opt/nvm/test/slow/nvm use/Running 'nvm use node' uses latest stable node version	546
+/opt/nvm/test/slow/nvm use/Running 'nvm use node --silent' doesn't print anything	338
+/opt/nvm/test/slow/nvm use/Running 'nvm use --lts' uses latest LTS version	567
+/opt/nvm/test/slow/nvm use/Running 'nvm use lts' shows actionable error	572
+/opt/nvm/test/slow/nvm use/Running 'nvm use --lts=foo' uses latest 'foo' LTS version	613
+/opt/nvm/test/slow/nvm run/teardown_dir	181
+/opt/nvm/test/slow/nvm run/Running 'nvm run 0.x' should error out sensibly when 0.x is not installed	602
+/opt/nvm/test/slow/nvm run/setup_dir	144
+/opt/nvm/test/slow/nvm run/Running 'nvm run 0.x' should work	180
+/opt/nvm/test/slow/nvm run/Running 'nvm run' should pick up .nvmrc version	917
+/opt/nvm/test/slow/nvm run/Running 'nvm run --lts' should work	579
+/opt/nvm/test/slow/nvm run/Running 'nvm run --harmony --version' should work	258
+/opt/nvm/test/slow/nvm run/Running 'nvm run --silent' should work	885
+/opt/nvm/test/slow/nvm reinstall-packages/teardown_dir	188
+/opt/nvm/test/slow/nvm reinstall-packages/Running 'nvm copy-packages $(nvm ls current)' should error out	767
+/opt/nvm/test/slow/nvm reinstall-packages/setup_dir	158
+/opt/nvm/test/slow/nvm reinstall-packages/works with no installs	791
+/opt/nvm/test/slow/nvm reinstall-packages/should work as expected	1433
+/opt/nvm/test/slow/nvm reinstall-packages/test-npmlink/package.json	191
+/opt/nvm/test/slow/nvm reinstall-packages/test-npmlink/index.js	38
+/opt/nvm/test/slow/Running 'nvm current' should display current nvm environment	203
+/opt/nvm/test/slow/nvm exec/teardown_dir	175
+/opt/nvm/test/slow/nvm exec/setup_dir	137
+/opt/nvm/test/slow/nvm exec/Running 'nvm exec' with help should not parse	206
+/opt/nvm/test/slow/nvm exec/Running 'nvm exec' should pick up .nvmrc version	506
+/opt/nvm/test/slow/nvm exec/Running 'nvm exec 0.x' should work	500
+/opt/nvm/test/slow/nvm exec/Running 'nvm exec --lts' should work	549
+/opt/nvm/test/slow/nvm exec/Running 'nvm exec --silent' should work	1267
+/opt/nvm/.gitmodules	103
+/opt/nvm/versions/node/v22.16.0/CHANGELOG.md	609525
+/opt/nvm/versions/node/v22.16.0/README.md	40333
+/opt/nvm/versions/node/v22.16.0/LICENSE	142078
+/opt/nvm/versions/node/v22.16.0/bin/node	121509208
+/opt/nvm/.cache/bin/node-v22.16.0-linux-x64/node-v22.16.0-linux-x64.tar.gz	54799832
+/opt/nvm/Dockerfile	3696
+/opt/nvm/.git/objects/fb/727151b6b7b547a2370e6a91b340d8a5cc467b	19959
+/opt/nvm/.git/objects/d7/c3b7f62bd09ee52634cd7888f26c1cc28c53af	504
+/opt/nvm/.git/objects/18/1029f8297b917a85d1aacd5be0965e54637f91	893
+/opt/nvm/.git/objects/18/ef8880d7c8a66b6e0d54e9b46588c7d0827ce0	296
+/opt/nvm/.git/objects/fd/23e83e19235f73a7fee5a3cc0719eb4db2a315	675
+/opt/nvm/.git/objects/d1/d23e1427862061b1dcb7540c435f19f7c0eebe	5499
+/opt/nvm/.git/objects/d0/25499c7f5466d0dc0a324dc98eab72cce8377d	813
+/opt/nvm/.git/objects/97/7563e97ddc66facf3a8e31c6cff01d236f09bd	800
+/opt/nvm/.git/objects/d9/4389621b71fbcf8214e43fcddfdb7d2920518b	40441
+/opt/nvm/.git/objects/06/b911368f574cf87f94b910635011f52a05e6df	1040
+/opt/nvm/.git/objects/61/19f79c1d9f4b60e322b5e99a0b4fd63e7c751f	1548
+/opt/nvm/.git/objects/pack/pack-cea1656ce677c123ce4e0329a49e4a529f1b3924.idx	11796
+/opt/nvm/.git/objects/pack/pack-cea1656ce677c123ce4e0329a49e4a529f1b3924.pack	401208
+/opt/nvm/.git/objects/60/4028928a54ad6ec19911b6968c5a14db99f91b	350
+/opt/nvm/.git/description	73
+/opt/nvm/.git/hooks/pre-merge-commit.sample	416
+/opt/nvm/.git/hooks/pre-push.sample	1374
+/opt/nvm/.git/hooks/pre-commit.sample	1643
+/opt/nvm/.git/hooks/pre-receive.sample	544
+/opt/nvm/.git/hooks/fsmonitor-watchman.sample	4726
+/opt/nvm/.git/hooks/push-to-checkout.sample	2783
+/opt/nvm/.git/hooks/commit-msg.sample	896
+/opt/nvm/.git/hooks/pre-applypatch.sample	424
+/opt/nvm/.git/hooks/prepare-commit-msg.sample	1492
+/opt/nvm/.git/hooks/update.sample	3650
+/opt/nvm/.git/hooks/pre-rebase.sample	4898
+/opt/nvm/.git/hooks/post-update.sample	189
+/opt/nvm/.git/hooks/applypatch-msg.sample	478
+/opt/nvm/.git/refs/tags/v0.40.3	41
+/opt/nvm/.git/refs/remotes/origin/HEAD	32
+/opt/nvm/.git/info/exclude	240
+/opt/nvm/.git/FETCH_HEAD	89
+/opt/nvm/.git/index	42772
+/opt/nvm/.git/config	206
+/opt/nvm/.git/packed-refs	114
+/opt/nvm/.git/HEAD	41
+/opt/nvm/.git/shallow	82
+/opt/nvm/.git/logs/HEAD	0
+/opt/nvm/README.md	50661
+/opt/nvm/PROJECT_CHARTER.md	2935
+/opt/nvm/package.json	2925
+/opt/nvm/.npmrc	19
+/opt/nvm/nvm-exec	371
+/opt/nvm/install.sh	16631
+/opt/nvm/CODE_OF_CONDUCT.md	7560
+/opt/nvm/.editorconfig	658
+/opt/nvm/nvm.sh	150227
+/opt/nvm/alias/default	8
+/opt/nvm/alias/lts/hydrogen	9
+/opt/nvm/alias/lts/*	12
+/opt/nvm/alias/lts/krypton	9
+/opt/nvm/alias/lts/jod	9
+/opt/nvm/alias/lts/gallium	9
+/opt/nvm/alias/lts/argon	7
+/opt/nvm/alias/lts/erbium	10
+/opt/nvm/alias/lts/iron	9
+/opt/nvm/alias/lts/fermium	9
+/opt/nvm/alias/lts/boron	8
+/opt/nvm/alias/lts/carbon	8
+/opt/nvm/alias/lts/dubnium	9
+/opt/nvm/GOVERNANCE.md	467
+/opt/nvm/.github/ISSUE_TEMPLATE/config.yml	28
+/opt/nvm/.github/ISSUE_TEMPLATE/issue_template.md	1188
+/opt/nvm/.github/SECURITY.md	1244
+/opt/nvm/.github/THREAT_MODEL.md	8745
+/opt/nvm/.github/workflows/latest-npm.yml	2196
+/opt/nvm/.github/workflows/nvm-install-test.yml	3406
+/opt/nvm/.github/workflows/release.yml	1085
+/opt/nvm/.github/workflows/tests.yml	2168
+/opt/nvm/.github/workflows/windows-npm.yml	6188
+/opt/nvm/.github/workflows/require-allow-edits.yml	465
+/opt/nvm/.github/workflows/toc.yml	1016
+/opt/nvm/.github/workflows/shellcheck.yml	1392
+/opt/nvm/.github/workflows/lint.yml	1985
+/opt/nvm/.github/workflows/rebase.yml	489
+/opt/nvm/.github/external-threat-actor.png	137404
+/opt/nvm/.github/insider-threat-actor-and-libs.png	56062
+/opt/nvm/.github/FUNDING.yml	574
+/opt/nvm/.gitattributes	19
+/opt/nvm/rename_test.sh	1235
+/opt/nvm/.dockerignore	155
+/opt/nvm/.gitignore	277
+/opt/nvm/CONTRIBUTING.md	5817
+/opt/nvm/LICENSE.md	1113
+/opt/imagemagick/share/doc/ImageMagick-7/www/stream.html	19301
+/opt/imagemagick/share/doc/ImageMagick-7/www/security-policy.html	36822
+/opt/imagemagick/share/doc/ImageMagick-7/www/wand.png	494
+/opt/imagemagick/share/doc/ImageMagick-7/www/cipher.html	16764
+/opt/imagemagick/share/doc/ImageMagick-7/www/resources.html	31604
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick-vector-graphics.html	40738
+/opt/imagemagick/share/doc/ImageMagick-7/www/exception.html	16795
+/opt/imagemagick/share/doc/ImageMagick-7/www/examples.html	13132
+/opt/imagemagick/share/doc/ImageMagick-7/www/support.html	18825
+/opt/imagemagick/share/doc/ImageMagick-7/www/mirror.html	15956
+/opt/imagemagick/share/doc/ImageMagick-7/www/news.html	17882
+/opt/imagemagick/share/doc/ImageMagick-7/www/license.html	26128
+/opt/imagemagick/share/doc/ImageMagick-7/www/command-line-tools.html	17665
+/opt/imagemagick/share/doc/ImageMagick-7/www/sitemap.html	31318
+/opt/imagemagick/share/doc/ImageMagick-7/www/webp.html	17488
+/opt/imagemagick/share/doc/ImageMagick-7/www/distribute-pixel-cache.html	15168
+/opt/imagemagick/share/doc/ImageMagick-7/www/export.html	14488
+/opt/imagemagick/share/doc/ImageMagick-7/www/import.html	23870
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick-wand.html	23605
+/opt/imagemagick/share/doc/ImageMagick-7/www/motion-picture.html	20478
+/opt/imagemagick/share/doc/ImageMagick-7/www/convex-hull.html	17537
+/opt/imagemagick/share/doc/ImageMagick-7/www/high-dynamic-range.html	15668
+/opt/imagemagick/share/doc/ImageMagick-7/www/miff.html	24153
+/opt/imagemagick/share/doc/ImageMagick-7/www/compare.html	25506
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick-script.html	50347
+/opt/imagemagick/share/doc/ImageMagick-7/www/mogrify.html	53346
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick-cache.html	21110
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick.html	53308
+/opt/imagemagick/share/doc/ImageMagick-7/www/advanced-linux-installation.html	48156
+/opt/imagemagick/share/doc/ImageMagick-7/www/formats.html	94912
+/opt/imagemagick/share/doc/ImageMagick-7/www/history.html	17772
+/opt/imagemagick/share/doc/ImageMagick-7/www/multispectral-imagery.html	20193
+/opt/imagemagick/share/doc/ImageMagick-7/www/quantize.html	23511
+/opt/imagemagick/share/doc/ImageMagick-7/www/favicon.ico	99254
+/opt/imagemagick/share/doc/ImageMagick-7/www/contact.html	15691
+/opt/imagemagick/share/doc/ImageMagick-7/www/jp2.html	15643
+/opt/imagemagick/share/doc/ImageMagick-7/www/cite.html	13571
+/opt/imagemagick/share/doc/ImageMagick-7/www/compose.html	37747
+/opt/imagemagick/share/doc/ImageMagick-7/www/index.html	25145
+/opt/imagemagick/share/doc/ImageMagick-7/www/privacy-policy.html	12870
+/opt/imagemagick/share/doc/ImageMagick-7/www/porting.html	51772
+/opt/imagemagick/share/doc/ImageMagick-7/www/composite.html	28782
+/opt/imagemagick/share/doc/ImageMagick-7/www/conjure.html	54155
+/opt/imagemagick/share/doc/ImageMagick-7/www/animate.html	26398
+/opt/imagemagick/share/doc/ImageMagick-7/www/command-line-processing.html	71821
+/opt/imagemagick/share/doc/ImageMagick-7/www/display.html	27721
+/opt/imagemagick/share/doc/ImageMagick-7/www/color.html	169845
+/opt/imagemagick/share/doc/ImageMagick-7/www/color-management.html	18661
+/opt/imagemagick/share/doc/ImageMagick-7/www/defines.html	76690
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick-core.html	24627
+/opt/imagemagick/share/doc/ImageMagick-7/www/architecture.html	100403
+/opt/imagemagick/share/doc/ImageMagick-7/www/convert.html	53824
+/opt/imagemagick/share/doc/ImageMagick-7/www/advanced-unix-installation.html	43256
+/opt/imagemagick/share/doc/ImageMagick-7/www/opencl.html	17192
+/opt/imagemagick/share/doc/ImageMagick-7/www/montage.html	31524
+/opt/imagemagick/share/doc/ImageMagick-7/www/search.html	12575
+/opt/imagemagick/share/doc/ImageMagick-7/www/magick++.html	18359
+/opt/imagemagick/share/doc/ImageMagick-7/www/escape.html	38270
+/opt/imagemagick/share/doc/ImageMagick-7/www/fx.html	45641
+/opt/imagemagick/share/doc/ImageMagick-7/www/changelog.html	155491
+/opt/imagemagick/share/doc/ImageMagick-7/www/install-source.html	21058
+/opt/imagemagick/share/doc/ImageMagick-7/www/openmp.html	15863
+/opt/imagemagick/share/doc/ImageMagick-7/www/perl-magick.html	112629
+/opt/imagemagick/share/doc/ImageMagick-7/www/command-line-options.html	390523
+/opt/imagemagick/share/doc/ImageMagick-7/www/advanced-windows-installation.html	14811
+/opt/imagemagick/share/doc/ImageMagick-7/www/links.html	18487
+/opt/imagemagick/share/doc/ImageMagick-7/www/color-thresholding.html	18013
+/opt/imagemagick/share/doc/ImageMagick-7/www/connected-components.html	19203
+/opt/imagemagick/share/doc/ImageMagick-7/www/identify.html	25010
+/opt/imagemagick/share/doc/ImageMagick-7/www/download.html	35353
+/opt/imagemagick/share/doc/ImageMagick-7/www/vpat.html	15666
+/opt/imagemagick/share/doc/ImageMagick-7/www/gradient.html	22168
+/opt/imagemagick/share/doc/ImageMagick-7/www/develop.html	23912
+/opt/imagemagick/share/doc/ImageMagick-7/www/clahe.html	16384
+/opt/imagemagick/share/doc/ImageMagick-7/index.html	25248
+/opt/imagemagick/share/doc/ImageMagick-7/LICENSE	12577
+/opt/imagemagick/share/doc/ImageMagick-7/images/cylinder_shaded.png	90419
+/opt/imagemagick/share/doc/ImageMagick-7/images/mountains-equalize.jpg	256508
+/opt/imagemagick/share/doc/ImageMagick-7/images/wand.png	2441
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo.jpg	18749
+/opt/imagemagick/share/doc/ImageMagick-7/images/red-circle.png	656
+/opt/imagemagick/share/doc/ImageMagick-7/images/objects.png	808
+/opt/imagemagick/share/doc/ImageMagick-7/images/rose.jpg	4069
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo.png	395648
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding-gray.gif	7423
+/opt/imagemagick/share/doc/ImageMagick-7/images/sprite.jpg	13288
+/opt/imagemagick/share/doc/ImageMagick-7/images/ImageMagick.ico	22382
+/opt/imagemagick/share/doc/ImageMagick-7/images/wizard.jpg	62546
+/opt/imagemagick/share/doc/ImageMagick-7/images/red-ball.png	2605
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding-rgb.gif	2776
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo-sm-flop.png	8950
+/opt/imagemagick/share/doc/ImageMagick-7/images/examples.jpg	1332140
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding-hsv.gif	2955
+/opt/imagemagick/share/doc/ImageMagick-7/images/fuzzy-magick.png	62734
+/opt/imagemagick/share/doc/ImageMagick-7/images/over.gif	771
+/opt/imagemagick/share/doc/ImageMagick-7/images/convex-hull-blocks.png	7257
+/opt/imagemagick/share/doc/ImageMagick-7/images/configure.jpg	153423
+/opt/imagemagick/share/doc/ImageMagick-7/images/reconstruct.jpg	4419
+/opt/imagemagick/share/doc/ImageMagick-7/images/script.png	14534
+/opt/imagemagick/share/doc/ImageMagick-7/images/gaussian-blur.png	1363
+/opt/imagemagick/share/doc/ImageMagick-7/images/white-highlight.png	1735
+/opt/imagemagick/share/doc/ImageMagick-7/images/bluebells_darker.jpg	26788
+/opt/imagemagick/share/doc/ImageMagick-7/images/rose.pnm	9673
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding.jpg	20013
+/opt/imagemagick/share/doc/ImageMagick-7/images/annotate.png	3003
+/opt/imagemagick/share/doc/ImageMagick-7/images/smile.gif	1349
+/opt/imagemagick/share/doc/ImageMagick-7/images/label.gif	1392
+/opt/imagemagick/share/doc/ImageMagick-7/images/button.gif	1887
+/opt/imagemagick/share/doc/ImageMagick-7/images/bluebells_log.jpg	15808
+/opt/imagemagick/share/doc/ImageMagick-7/images/imade_art2.jpg	1808
+/opt/imagemagick/share/doc/ImageMagick-7/images/sponsor.jpg	3071
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo-sm.png	9009
+/opt/imagemagick/share/doc/ImageMagick-7/images/affine.png	2975
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo-sm-fx.png	11656
+/opt/imagemagick/share/doc/ImageMagick-7/images/bluebells_clipped.jpg	23762
+/opt/imagemagick/share/doc/ImageMagick-7/images/bitcoin.svg	19012
+/opt/imagemagick/share/doc/ImageMagick-7/images/difference.png	15552
+/opt/imagemagick/share/doc/ImageMagick-7/images/wand.ico	22382
+/opt/imagemagick/share/doc/ImageMagick-7/images/objects.jpg	3518
+/opt/imagemagick/share/doc/ImageMagick-7/images/convex-hull.png	5345
+/opt/imagemagick/share/doc/ImageMagick-7/images/black.png	128
+/opt/imagemagick/share/doc/ImageMagick-7/images/radial-gradient.png	14338
+/opt/imagemagick/share/doc/ImageMagick-7/images/piechart.png	51008
+/opt/imagemagick/share/doc/ImageMagick-7/images/background.jpg	556
+/opt/imagemagick/share/doc/ImageMagick-7/images/mountains-clahe.jpg	329823
+/opt/imagemagick/share/doc/ImageMagick-7/images/right.gif	82
+/opt/imagemagick/share/doc/ImageMagick-7/images/navy.png	265
+/opt/imagemagick/share/doc/ImageMagick-7/images/mountains.jpg	220205
+/opt/imagemagick/share/doc/ImageMagick-7/images/logo.eps	611139
+/opt/imagemagick/share/doc/ImageMagick-7/images/rose-over.png	7533
+/opt/imagemagick/share/doc/ImageMagick-7/images/t-shirt.png	258147
+/opt/imagemagick/share/doc/ImageMagick-7/images/rose.png	6939
+/opt/imagemagick/share/doc/ImageMagick-7/images/convex-hull-barn-closure.jpg	74870
+/opt/imagemagick/share/doc/ImageMagick-7/images/arc.png	3672
+/opt/imagemagick/share/doc/ImageMagick-7/images/atop.gif	1219
+/opt/imagemagick/share/doc/ImageMagick-7/images/bluebells_lin.jpg	32192
+/opt/imagemagick/share/doc/ImageMagick-7/images/convex-hull-blocks-closure.png	9051
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding-hsv-rgb.gif	2963
+/opt/imagemagick/share/doc/ImageMagick-7/images/rose-sigmoidal.png	16733
+/opt/imagemagick/share/doc/ImageMagick-7/images/frame.jpg	6067
+/opt/imagemagick/share/doc/ImageMagick-7/images/objects.gif	1013
+/opt/imagemagick/share/doc/ImageMagick-7/images/color-thresholding.gif	2776
+/opt/imagemagick/share/doc/ImageMagick-7/images/convex-hull-barn.jpg	68704
+/opt/imagemagick/share/doc/ImageMagick-7/images/granite.png	15221
+/opt/imagemagick/share/doc/ImageMagick-7/images/wizard.png	1363471
+/opt/imagemagick/share/doc/ImageMagick-7/images/montage.jpg	2594
+/opt/imagemagick/share/man/man1/compare.1	5883
+/opt/imagemagick/share/man/man1/import.1	5614
+/opt/imagemagick/share/man/man1/conjure.1	1812
+/opt/imagemagick/share/man/man1/montage.1	8172
+/opt/imagemagick/share/man/man1/display.1	7753
+/opt/imagemagick/share/man/man1/identify.1	5032
+/opt/imagemagick/share/man/man1/mogrify.1	18850
+/opt/imagemagick/share/man/man1/Magick++-config.1	3057
+/opt/imagemagick/share/man/man1/magick.1	15832
+/opt/imagemagick/share/man/man1/stream.1	3414
+/opt/imagemagick/share/man/man1/composite.1	6273
+/opt/imagemagick/share/man/man1/MagickCore-config.1	1896
+/opt/imagemagick/share/man/man1/ImageMagick.1	6282
+/opt/imagemagick/share/man/man1/animate.1	5493
+/opt/imagemagick/share/man/man1/magick-script.1	15752
+/opt/imagemagick/share/man/man1/MagickWand-config.1	1546
+/opt/imagemagick/share/man/man1/convert.1	19079
+/opt/imagemagick/share/ImageMagick-7/locale.xml	2461
+/opt/imagemagick/share/ImageMagick-7/francais.xml	55462
+/opt/imagemagick/share/ImageMagick-7/english.xml	52578
+/opt/imagemagick/include/ImageMagick-7/Magick++.h	823
+/opt/imagemagick/include/ImageMagick-7/MagickWand/compare.h	970
+/opt/imagemagick/include/ImageMagick-7/MagickWand/wand-view.h	2421
+/opt/imagemagick/include/ImageMagick-7/MagickWand/display.h	969
+/opt/imagemagick/include/ImageMagick-7/MagickWand/wandcli.h	1444
+/opt/imagemagick/include/ImageMagick-7/MagickWand/magick-cli.h	1329
+/opt/imagemagick/include/ImageMagick-7/MagickWand/mogrify.h	1315
+/opt/imagemagick/include/ImageMagick-7/MagickWand/MagickWand.h	3772
+/opt/imagemagick/include/ImageMagick-7/MagickWand/stream.h	966
+/opt/imagemagick/include/ImageMagick-7/MagickWand/identify.h	974
+/opt/imagemagick/include/ImageMagick-7/MagickWand/magick-property.h	5682
+/opt/imagemagick/include/ImageMagick-7/MagickWand/conjure.h	969
+/opt/imagemagick/include/ImageMagick-7/MagickWand/magick-image.h	20187
+/opt/imagemagick/include/ImageMagick-7/MagickWand/pixel-wand.h	4483
+/opt/imagemagick/include/ImageMagick-7/MagickWand/drawing-wand.h	10135
+/opt/imagemagick/include/ImageMagick-7/MagickWand/import.h	965
+/opt/imagemagick/include/ImageMagick-7/MagickWand/pixel-iterator.h	2093
+/opt/imagemagick/include/ImageMagick-7/MagickWand/composite.h	977
+/opt/imagemagick/include/ImageMagick-7/MagickWand/operation.h	977
+/opt/imagemagick/include/ImageMagick-7/MagickWand/animate.h	970
+/opt/imagemagick/include/ImageMagick-7/MagickWand/deprecate.h	1167
+/opt/imagemagick/include/ImageMagick-7/MagickWand/montage.h	969
+/opt/imagemagick/include/ImageMagick-7/MagickWand/method-attribute.h	3363
+/opt/imagemagick/include/ImageMagick-7/MagickCore/resource_.h	1732
+/opt/imagemagick/include/ImageMagick-7/MagickCore/nt-base.h	2499
+/opt/imagemagick/include/ImageMagick-7/MagickCore/pixel-accessor.h	31099
+/opt/imagemagick/include/ImageMagick-7/MagickCore/compress.h	2301
+/opt/imagemagick/include/ImageMagick-7/MagickCore/opencl.h	2021
+/opt/imagemagick/include/ImageMagick-7/MagickCore/compare.h	1972
+/opt/imagemagick/include/ImageMagick-7/MagickCore/annotate.h	1285
+/opt/imagemagick/include/ImageMagick-7/MagickCore/display.h	1072
+/opt/imagemagick/include/ImageMagick-7/MagickCore/distort.h	2710
+/opt/imagemagick/include/ImageMagick-7/MagickCore/xml-tree.h	1490
+/opt/imagemagick/include/ImageMagick-7/MagickCore/option.h	6517
+/opt/imagemagick/include/ImageMagick-7/MagickCore/feature.h	1741
+/opt/imagemagick/include/ImageMagick-7/MagickCore/semaphore.h	1179
+/opt/imagemagick/include/ImageMagick-7/MagickCore/profile.h	1675
+/opt/imagemagick/include/ImageMagick-7/MagickCore/magick-baseconfig.h	46765
+/opt/imagemagick/include/ImageMagick-7/MagickCore/fourier.h	1414
+/opt/imagemagick/include/ImageMagick-7/MagickCore/list.h	2354
+/opt/imagemagick/include/ImageMagick-7/MagickCore/magick-config.h	7424
+/opt/imagemagick/include/ImageMagick-7/MagickCore/distribute-cache.h	988
+/opt/imagemagick/include/ImageMagick-7/MagickCore/enhance.h	2420
+/opt/imagemagick/include/ImageMagick-7/MagickCore/registry.h	1437
+/opt/imagemagick/include/ImageMagick-7/MagickCore/resize.h	1744
+/opt/imagemagick/include/ImageMagick-7/MagickCore/layer.h	2047
+/opt/imagemagick/include/ImageMagick-7/MagickCore/stream.h	1600
+/opt/imagemagick/include/ImageMagick-7/MagickCore/histogram.h	1381
+/opt/imagemagick/include/ImageMagick-7/MagickCore/blob.h	3370
+/opt/imagemagick/include/ImageMagick-7/MagickCore/pixel.h	7673
+/opt/imagemagick/include/ImageMagick-7/MagickCore/coder.h	1311
+/opt/imagemagick/include/ImageMagick-7/MagickCore/identify.h	968
+/opt/imagemagick/include/ImageMagick-7/MagickCore/transform.h	1802
+/opt/imagemagick/include/ImageMagick-7/MagickCore/image-view.h	2773
+/opt/imagemagick/include/ImageMagick-7/MagickCore/timer.h	1603
+/opt/imagemagick/include/ImageMagick-7/MagickCore/type.h	1984
+/opt/imagemagick/include/ImageMagick-7/MagickCore/utility.h	1693
+/opt/imagemagick/include/ImageMagick-7/MagickCore/memory_.h	3303
+/opt/imagemagick/include/ImageMagick-7/MagickCore/artifact.h	1379
+/opt/imagemagick/include/ImageMagick-7/MagickCore/log.h	2910
+/opt/imagemagick/include/ImageMagick-7/MagickCore/matrix.h	1560
+/opt/imagemagick/include/ImageMagick-7/MagickCore/studio.h	9507
+/opt/imagemagick/include/ImageMagick-7/MagickCore/version.h	3123
+/opt/imagemagick/include/ImageMagick-7/MagickCore/image.h	13817
+/opt/imagemagick/include/ImageMagick-7/MagickCore/morphology.h	4557
+/opt/imagemagick/include/ImageMagick-7/MagickCore/delegate.h	2021
+/opt/imagemagick/include/ImageMagick-7/MagickCore/signature.h	944
+/opt/imagemagick/include/ImageMagick-7/MagickCore/magick-type.h	5808
+/opt/imagemagick/include/ImageMagick-7/MagickCore/resample.h	2845
+/opt/imagemagick/include/ImageMagick-7/MagickCore/colormap.h	1071
+/opt/imagemagick/include/ImageMagick-7/MagickCore/MagickCore.h	5062
+/opt/imagemagick/include/ImageMagick-7/MagickCore/segment.h	1112
+/opt/imagemagick/include/ImageMagick-7/MagickCore/color.h	2556
+/opt/imagemagick/include/ImageMagick-7/MagickCore/cipher.h	1130
+/opt/imagemagick/include/ImageMagick-7/MagickCore/linked-list.h	1960
+/opt/imagemagick/include/ImageMagick-7/MagickCore/decorate.h	1368
+/opt/imagemagick/include/ImageMagick-7/MagickCore/visual-effects.h	2872
+/opt/imagemagick/include/ImageMagick-7/MagickCore/exception.h	4527
+/opt/imagemagick/include/ImageMagick-7/MagickCore/configure.h	1684
+/opt/imagemagick/include/ImageMagick-7/MagickCore/static.h	9029
+/opt/imagemagick/include/ImageMagick-7/MagickCore/effect.h	3022
+/opt/imagemagick/include/ImageMagick-7/MagickCore/attribute.h	1816
+/opt/imagemagick/include/ImageMagick-7/MagickCore/xwindow.h	1130
+/opt/imagemagick/include/ImageMagick-7/MagickCore/quantize.h	2097
+/opt/imagemagick/include/ImageMagick-7/MagickCore/random_.h	1519
+/opt/imagemagick/include/ImageMagick-7/MagickCore/threshold.h	2058
+/opt/imagemagick/include/ImageMagick-7/MagickCore/module.h	2036
+/opt/imagemagick/include/ImageMagick-7/MagickCore/monitor.h	1618
+/opt/imagemagick/include/ImageMagick-7/MagickCore/policy.h	1920
+/opt/imagemagick/include/ImageMagick-7/MagickCore/statistic.h	4528
+/opt/imagemagick/include/ImageMagick-7/MagickCore/client.h	1049
+/opt/imagemagick/include/ImageMagick-7/MagickCore/draw.h	5874
+/opt/imagemagick/include/ImageMagick-7/MagickCore/magic.h	1350
+/opt/imagemagick/include/ImageMagick-7/MagickCore/mime.h	1405
+/opt/imagemagick/include/ImageMagick-7/MagickCore/composite.h	2986
+/opt/imagemagick/include/ImageMagick-7/MagickCore/constitute.h	1480
+/opt/imagemagick/include/ImageMagick-7/MagickCore/widget.h	849
+/opt/imagemagick/include/ImageMagick-7/MagickCore/animate.h	976
+/opt/imagemagick/include/ImageMagick-7/MagickCore/deprecate.h	1381
+/opt/imagemagick/include/ImageMagick-7/MagickCore/montage.h	1820
+/opt/imagemagick/include/ImageMagick-7/MagickCore/prepress.h	936
+/opt/imagemagick/include/ImageMagick-7/MagickCore/splay-tree.h	2021
+/opt/imagemagick/include/ImageMagick-7/MagickCore/geometry.h	4211
+/opt/imagemagick/include/ImageMagick-7/MagickCore/channel.h	1741
+/opt/imagemagick/include/ImageMagick-7/MagickCore/shear.h	1135
+/opt/imagemagick/include/ImageMagick-7/MagickCore/method-attribute.h	4023
+/opt/imagemagick/include/ImageMagick-7/MagickCore/quantum.h	5433
+/opt/imagemagick/include/ImageMagick-7/MagickCore/property.h	1699
+/opt/imagemagick/include/ImageMagick-7/MagickCore/vision.h	1316
+/opt/imagemagick/include/ImageMagick-7/MagickCore/paint.h	1660
+/opt/imagemagick/include/ImageMagick-7/MagickCore/token.h	1512
+/opt/imagemagick/include/ImageMagick-7/MagickCore/cache.h	2631
+/opt/imagemagick/include/ImageMagick-7/MagickCore/magick.h	4276
+/opt/imagemagick/include/ImageMagick-7/MagickCore/locale_.h	2252
+/opt/imagemagick/include/ImageMagick-7/MagickCore/string_.h	3770
+/opt/imagemagick/include/ImageMagick-7/MagickCore/fx.h	953
+/opt/imagemagick/include/ImageMagick-7/MagickCore/colorspace.h	2519
+/opt/imagemagick/include/ImageMagick-7/MagickCore/gem.h	1208
+/opt/imagemagick/include/ImageMagick-7/MagickCore/methods.h	99877
+/opt/imagemagick/include/ImageMagick-7/MagickCore/cache-view.h	3715
+/opt/imagemagick/include/ImageMagick-7/Magick++/Image.h	64251
+/opt/imagemagick/include/ImageMagick-7/Magick++/Color.h	11883
+/opt/imagemagick/include/ImageMagick-7/Magick++/ResourceLimits.h	2616
+/opt/imagemagick/include/ImageMagick-7/Magick++/TypeMetric.h	1652
+/opt/imagemagick/include/ImageMagick-7/Magick++/Statistic.h	6972
+/opt/imagemagick/include/ImageMagick-7/Magick++/SecurityPolicy.h	1373
+/opt/imagemagick/include/ImageMagick-7/Magick++/Blob.h	2433
+/opt/imagemagick/include/ImageMagick-7/Magick++/CoderInfo.h	1995
+/opt/imagemagick/include/ImageMagick-7/Magick++/STL.h	72011
+/opt/imagemagick/include/ImageMagick-7/Magick++/Drawable.h	68417
+/opt/imagemagick/include/ImageMagick-7/Magick++/Montage.h	3981
+/opt/imagemagick/include/ImageMagick-7/Magick++/Functions.h	1726
+/opt/imagemagick/include/ImageMagick-7/Magick++/Pixels.h	4080
+/opt/imagemagick/include/ImageMagick-7/Magick++/Geometry.h	6760
+/opt/imagemagick/include/ImageMagick-7/Magick++/Include.h	49052
+/opt/imagemagick/include/ImageMagick-7/Magick++/Exception.h	11960
+/opt/imagemagick/lib/libMagickCore-7.Q16HDRI.la	1104
+/opt/imagemagick/lib/pkgconfig/MagickWand-7.Q16HDRI.pc	816
+/opt/imagemagick/lib/pkgconfig/MagickCore-7.Q16HDRI.pc	848
+/opt/imagemagick/lib/pkgconfig/Magick++-7.Q16HDRI.pc	531
+/opt/imagemagick/lib/pkgconfig/MagickCore.pc	848
+/opt/imagemagick/lib/pkgconfig/Magick++.pc	531
+/opt/imagemagick/lib/pkgconfig/MagickWand.pc	816
+/opt/imagemagick/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc	800
+/opt/imagemagick/lib/pkgconfig/ImageMagick.pc	800
+/opt/imagemagick/lib/libMagickWand-7.Q16HDRI.a	2371096
+/opt/imagemagick/lib/libMagick++-7.Q16HDRI.la	1179
+/opt/imagemagick/lib/libMagickCore-7.Q16HDRI.a	7656096
+/opt/imagemagick/lib/ImageMagick-7.1.2/config-Q16HDRI/configure.xml	4477
+/opt/imagemagick/lib/libMagick++-7.Q16HDRI.a	11631172
+/opt/imagemagick/lib/libMagickWand-7.Q16HDRI.la	1152
+/opt/imagemagick/bin/MagickCore-config	1729
+/opt/imagemagick/bin/magick	4950880
+/opt/imagemagick/bin/Magick++-config	1470
+/opt/imagemagick/bin/MagickWand-config	1524
+/opt/imagemagick/etc/ImageMagick-7/type.xml	607
+/opt/imagemagick/etc/ImageMagick-7/colors.xml	1383
+/opt/imagemagick/etc/ImageMagick-7/mime.xml	135712
+/opt/imagemagick/etc/ImageMagick-7/log.xml	1622
+/opt/imagemagick/etc/ImageMagick-7/type-ghostscript.xml	7572
+/opt/imagemagick/etc/ImageMagick-7/delegates.xml	14862
+/opt/imagemagick/etc/ImageMagick-7/policy.xml	7768
+/opt/imagemagick/etc/ImageMagick-7/type-apple.xml	29218
+/opt/imagemagick/etc/ImageMagick-7/type-urw-base35.xml	7054
+/opt/imagemagick/etc/ImageMagick-7/type-urw-base35-type1.xml	7985
+/opt/imagemagick/etc/ImageMagick-7/quantization-table.xml	2369
+/opt/imagemagick/etc/ImageMagick-7/thresholds.xml	11452
+/opt/imagemagick/etc/ImageMagick-7/type-windows.xml	13706
+/opt/imagemagick/etc/ImageMagick-7/type-dejavu.xml	9471
+/opt/pyvenv-python-tool/pyvenv.cfg	171
+/opt/pyvenv-python-tool/share/man/man1/ipython.1	2058
+/opt/pyvenv-python-tool/share/jupyter/lab/static/88b98cad3688915e50da.woff	34464
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9747.6dd327f4928c6989ea8a.js.LICENSE.txt	64
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5521.ce4a0274596e0325374c.js	10391
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7508.b902347f820c70cd386a.js	218255
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4008.86acbefff6de679f77b5.js	99552
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7827.e36d073d947bf02a05e3.js	4800
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4878.73004381601237a3ef9c.js	3875
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3056.8a73f6aacd8ca45f84f9.js	69354
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7669.343e259c4c8269479f5b.js	1120
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8710.5fc5ecb762fb4494db02.js	2946
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7245.c0cae8787dcd00b991b7.js	233
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6359.4b994bfd6b1dea2d6fe3.js	3648
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8625.a7308ba1283f47df16a1.js	5687
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5440.2541fcda12b661665148.js	16411
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5203.c002d40ac647dc6e1d61.js	2358
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6267.1def2916929e185ab9fc.js	2489
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8787.4d36d28dcf94bf59cbfe.js	6472
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7313.4a8a9a1eee6f7ef15ee1.js	67050
+/opt/pyvenv-python-tool/share/jupyter/lab/static/46.fb119c5e5b1e0c72a00f.js	1377
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6443.e6b52d3732b3e8513a71.js	16395
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7272.72081c10e0f645b0631a.js	9105
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3bc6ecaae7ecf6f8d7f8.woff	5148
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7763.19a095394000f9ef62bd.js.LICENSE.txt	55
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4136.4b9f72f85f49f979ebb8.js	264320
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7313.4a8a9a1eee6f7ef15ee1.js.LICENSE.txt	240
+/opt/pyvenv-python-tool/share/jupyter/lab/static/745.85516a9bb83bcd94d00d.js	233
+/opt/pyvenv-python-tool/share/jupyter/lab/static/af04542b29eaac04550a.woff	9908
+/opt/pyvenv-python-tool/share/jupyter/lab/static/bootstrap.js	3275
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1861.4fc7b4afe2b09eb6b5c0.js	11127
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1420.e8486ed074346bc629ca.js	2701
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2800.680b1fa0a4c66c69bb1e.js	22749
+/opt/pyvenv-python-tool/share/jupyter/lab/static/881.972f79365eed0f77378e.js	25378
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8823.2ff947bcd96cc0723058.js	9348
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1036.0d1f109c3d842497fd51.js.LICENSE.txt	160
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3de784d07b9fa8f104c1.woff	40808
+/opt/pyvenv-python-tool/share/jupyter/lab/static/e4299464e7b012968eed.eot	134294
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7384.60351e008d8f687e8fcc.js	16395
+/opt/pyvenv-python-tool/share/jupyter/lab/static/index.out.js	21702
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7080.1330328bb6f46b4da81e.js	3261
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8738.782816e9072ac38762b4.js	1576166
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5201.8866042bae350659528a.js	22460
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6207.a8079c8d8a61039dd530.js	95708
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1903.3b452e8ec30e57dbaba5.js	5447
+/opt/pyvenv-python-tool/share/jupyter/lab/static/526.601d8ddd8347cd7790b9.js	23767
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2655.71a94960aa4ab2040d8f.js	14155
+/opt/pyvenv-python-tool/share/jupyter/lab/static/c56da8d69f1a0208b8e0.woff	17604
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1929.96e62233aa6f2a8363d4.js	47881
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3520.3495b98946de6960ace8.js	7798
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7887.128a155df5d25e88c0ce.js	3433
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1581.e988a625b879002dcc04.js	130890
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2104.296346db0067b4883fbf.js	26582
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5959.a6b1fd3b03d3649ea8b1.js	1140
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9445.fe5e9e5b728de8d15873.js	4291
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7426.c83966ccc62601d391bd.js.LICENSE.txt	689
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8ea8dbb1b02e6f730f55.woff	19776
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7473.5012397d10d3b945ecaa.js	293841
+/opt/pyvenv-python-tool/share/jupyter/lab/static/main.c8fa35da61e4a90aae4e.js	81985
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9362.823dcfac216f8057452d.js	3818
+/opt/pyvenv-python-tool/share/jupyter/lab/static/26683bf201fb258a2237.woff	9600
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8002.25f64485372af5158c83.js	2398
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1760.9a71f4501e9bbaa4c4d8.js	27470
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4591.428531724f49fe824ffa.js	37602
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3871.ba96e5b53bb16df56618.js	61634
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9826.38c59b84e02def79216e.js	204514
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7161.353c3ab960df72e6f1ea.js	39551
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1cb1c39ea642f26a4dfe.woff	34160
+/opt/pyvenv-python-tool/share/jupyter/lab/static/third-party-licenses.json	409349
+/opt/pyvenv-python-tool/share/jupyter/lab/static/786.8a99ee7dbd7bd0eb9dce.js	3312
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7294.badf85a3180703d63f62.js.LICENSE.txt	237
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8771.327a202178f82f3b15b8.js	26003
+/opt/pyvenv-python-tool/share/jupyter/lab/static/721921bab0d001ebff02.woff	22340
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3308.764d71af7e591cdb1345.js	36942
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4136.4b9f72f85f49f979ebb8.js.LICENSE.txt	366
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6059.d83e7323b2ee1aa16009.js	4641
+/opt/pyvenv-python-tool/share/jupyter/lab/static/72bc573386dd1d48c5bb.woff	1136
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9653.d93c93e084cd5e93cd2d.js	6863
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4743.d4e9658ea25301e15a94.js	4369
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1550.09375e869bc25429b07a.js	1096
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9747.6dd327f4928c6989ea8a.js	9307
+/opt/pyvenv-python-tool/share/jupyter/lab/static/226.5dc3528c008170b37b21.js	79660
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7823.817687f13e9a6781fdd3.js	9292
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3f6d3488cf65374f6f67.woff	101648
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7731.26db150e967313b7a7e2.js	1690
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9230.58b8c42b730e1a56e69b.js	121036
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8498.27a245b23921914bf5c2.js	9831
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9409.34c33ed11e2d6f318480.js	4543
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6815.0b699f0c162a24b0dbe3.js	7162
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1581.e988a625b879002dcc04.js.LICENSE.txt	95
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9440.04751e25c9cde059ff37.js	36822
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5746.e4434ef2027bcc5ed0c9.js	15091
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9.0e0cba0ccc2a4b670600.js	41505
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6770.fd7084bb2f4b7622401d.js	459679
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8322.288af285dac9cb9a8800.js	4147
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4086.3087c0abed5ca45b823b.js	14496
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9579.4b1b079b6b7cd2924338.js	282002
+/opt/pyvenv-python-tool/share/jupyter/lab/static/79d088064beb3826054f.eot	34034
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7511.b381a696cf806983c654.js	2845
+/opt/pyvenv-python-tool/share/jupyter/lab/static/406.81906f96059e31e907a2.js	31857
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8805.0f14a91b024b59c039a7.js	2375
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8012.40cb006f0c180ebafa91.js	2327
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2363.6eef078cb37c32d7fbc3.js	4316
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6243.2efd673d1304c43b7b78.js	2910
+/opt/pyvenv-python-tool/share/jupyter/lab/static/49.7233f68f95d10b85a83e.js	31835
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3935.905285b8e22c337968ed.js.LICENSE.txt	483
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9030.260bc05e28eccff70ae8.js	13038
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7775.3e0dee729369fe3d5008.js	81520
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6560.f42276a0b1b92aea515b.js	15889
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4986.a497cdda4b7152902568.js	171464
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5794.3cb2bcd1a3e23d0c084e.js	11325
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9222.1c2a8e69a2de57dd1984.js	26851
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1993.f8c5682f95ffa75cbaf6.js	6749
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5041.cdc120bda0a0dec4cfc2.js	4008
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8302.5c5e5a2da7fe74b12a1d.js	130136
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6163.f5b51a9f0df4846ba40f.js	1888
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3601.5c17c015d71b69ddcab3.js	2648
+/opt/pyvenv-python-tool/share/jupyter/lab/static/942.93c8de61ea9ea08ec097.js	23176
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4562.72444a09f5f092646490.js	3117
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9109.fa3ee74a5c0f378f4d51.js	2848
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1945.0fbbfe93a4aedd91875c.js	5710
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9834b82ad26e2a37583d.woff2	78268
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2646.0864fb63d7ab1ed16893.js	4329
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1467.dcd89539f6477c1367af.js	2099
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3923.f29c06abdcb560130471.js	28163
+/opt/pyvenv-python-tool/share/jupyter/lab/static/383.db345dbeef5ef774e50c.js	103882
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5881.3946238aa4afdcf4f964.js	10611
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4017.096a74a538e031b6d346.js	4139
+/opt/pyvenv-python-tool/share/jupyter/lab/static/af96f67d7accf5fd2a4a.woff	11852
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9545.f0f7a2959bdd17ee3448.js	76280
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8512.1af96655287fd124877b.js	40261
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8ea8791754915a898a31.woff2	76736
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4139.303ee7374c742287be85.js	5861
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1716.a6bbe1ae8a1986a73623.js	3140
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2295.cda0f7182bf2a1a03c5a.js	1983
+/opt/pyvenv-python-tool/share/jupyter/lab/static/627.7e292370f4d61d9e8648.js	228227
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1166.8ac24b1cdbba2a335fac.js	32957
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8347.573b699e3590729bfa8a.js	817
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9421.022dc7b4e9a2c80c32c2.js	87517
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2990.ea15322a41d3f133989b.js	9348
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7317.af8a7da0f881a22752c1.js	2819
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9621.9cbfa52c42927bb398b4.js	40346
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3528.3b5ef5f31d460b5fcd01.js	3229
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2995.0448b3ed572d9cc5fcc7.js	3783
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9870.70b2b59cc96c3a97c489.js	8903
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6686.3c518aa6e5f9785fb486.js	57006
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1464.4b120a718f613189bd64.js	958
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9579.4b1b079b6b7cd2924338.js.LICENSE.txt	908
+/opt/pyvenv-python-tool/share/jupyter/lab/static/481e39042508ae313a60.woff	1368
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1294.9d27be1098bc8abebe3f.js	4463
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7763.19a095394000f9ef62bd.js	19031
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6898.742a7062fa979fb68a80.js	30251
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4283.f6092d8b7f2e53118d1b.js	1012
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2254.55c69210925ec9b28dd9.js	2636
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2485.dab750ed66209df61fe1.js	4463
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7178.5f3dd740449b44efad2d.js	12284
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9265.bc2b66a4502cdfcfc14f.js	233
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4008.86acbefff6de679f77b5.js.LICENSE.txt	212
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7734.b08c15e9f538f44d0f52.js	33585
+/opt/pyvenv-python-tool/share/jupyter/lab/static/index.html	1702
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3547.bd90e90bfe79911486e8.js	28315
+/opt/pyvenv-python-tool/share/jupyter/lab/static/jlab_core.b91074b1e57242ddcd31.js	2310017
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4419.93938494f456cd76a7e3.js	1056
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1448.c391061d8a8344f9d177.js	13219
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7517.f3e5d420f4af90d442dd.js	112038
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8405.154ba4b17a2dec22a355.js	2426
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7472.58ba8647a489d019c2ef.js	55415
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8493.fc635229db38e6fc6aa2.js	2399
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1954.07d96e4020ed6e543d25.js	2599
+/opt/pyvenv-python-tool/share/jupyter/lab/static/e42a88444448ac3d6054.woff2	13224
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7178.5f3dd740449b44efad2d.js.LICENSE.txt	249
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3711.150292a21fd47be1c05f.js	64363
+/opt/pyvenv-python-tool/share/jupyter/lab/static/a3b9817780214caf01e8.svg	747927
+/opt/pyvenv-python-tool/share/jupyter/lab/static/package.json	13706
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1776.4f9305d35480467b23c9.js	475
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8875.88988caaba1e33edad5b.js	67366
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2551.b07d561a12360c38c589.js	5160
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3783.93d5366ab28a19e1f0f9.js	64669
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2039.aa079dac5c520f93b234.js	7268
+/opt/pyvenv-python-tool/share/jupyter/lab/static/a009bea404f7a500ded4.woff	19360
+/opt/pyvenv-python-tool/share/jupyter/lab/static/c49810b53ecc0d87d802.woff	5792
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2953.92ff8f12bad6ee06859c.js	57491
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8152.5baac73844a065f34284.js	9221
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2617.9c299e26785f7646cb39.js	1458
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2579.b19edefeb9ee4daed4bd.js	9665
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7294.badf85a3180703d63f62.js	6719
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1142.d5442a459b18907c1f91.js	33128
+/opt/pyvenv-python-tool/share/jupyter/lab/static/cb9e9e693192413cde2b.woff	16276
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7946.7fe46d47492e459b7cb5.js	22428
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4765.093b4f8b3cee1251db8d.js	5300
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2091.600b1c32af186f6405f9.js	80867
+/opt/pyvenv-python-tool/share/jupyter/lab/static/f9217f66874b0c01cd8c.woff	89988
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9738.c0234a1f7f6ac262f560.js	2143
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7877.a4c46a784149533b91d4.js	29485
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3123.85cea4be2e2ed3f9654f.js	49291
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7363.abe8e31a91e113753bae.js	3052
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7451.c0257dbfdd320e2c21f5.js.LICENSE.txt	559
+/opt/pyvenv-python-tool/share/jupyter/lab/static/373c04fd2418f5c77eea.eot	203030
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2459.9f9cb02561de1bec73ff.js	4289
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8010.1cf8237e9def8404f355.js	3496
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2755.696bab6bdca0d9a78131.js	41758
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1917.05d73322caab1f77e3bf.js	39647
+/opt/pyvenv-python-tool/share/jupyter/lab/static/style.js	2623
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8319.80fcbc832e1eb20b71e7.js	7726
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3935.905285b8e22c337968ed.js	135514
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4155.5a8d6736017097028d78.js	1907
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9395.b59dceae72715c9f885c.js	12803
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3549.24f2fe646d8128bc9db0.js	4816
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9826.38c59b84e02def79216e.js.LICENSE.txt	1144
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1036.0d1f109c3d842497fd51.js	162978
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9674eb1bd55047179038.svg	918991
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6515.56c63929fb079a820cbc.js	18377
+/opt/pyvenv-python-tool/share/jupyter/lab/static/812.c8640af87f151ae89752.js	11958
+/opt/pyvenv-python-tool/share/jupyter/lab/static/build_log.json	22726
+/opt/pyvenv-python-tool/share/jupyter/lab/static/32792104b5ef69eded90.woff	15944
+/opt/pyvenv-python-tool/share/jupyter/lab/static/e8711bbb871afd8e9dea.ttf	33736
+/opt/pyvenv-python-tool/share/jupyter/lab/static/355254db9ca10a09a3b5.woff	20832
+/opt/pyvenv-python-tool/share/jupyter/lab/static/af6397503fcefbd61397.ttf	202744
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7848.e83aa4b90ae87209abb8.js	2882
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5cda41563a095bd70c78.woff	3244
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1085.0b67f0736d85ec41fdd4.js	4435
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2909.e190307f7f84c7691068.js	5079
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8462.74d5f5afd4f9d7825eed.js	610
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7112.d5120c85ebd17620dda0.js	2415
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7390.8253478b90f756692702.js	2574
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7451.c0257dbfdd320e2c21f5.js	133900
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8678.dcd3dab9025b13eb9be8.js	12845
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4519.6b784d052db42e93eff2.js	8995
+/opt/pyvenv-python-tool/share/jupyter/lab/static/30e889b58cbc51adfbb0.woff	5464
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6532.bb7137729a2d6d4e6ddf.js	6944
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2320.04abae549b19363c2fdd.js	275763
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9984.6ba5355e0d5487d5ac63.js	86586
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7629.1f295461ebf56a48c197.js	71741
+/opt/pyvenv-python-tool/share/jupyter/lab/static/378.6d0f0fc4c8a2eb80ac43.js	6845
+/opt/pyvenv-python-tool/share/jupyter/lab/static/be0a084962d8066884f7.svg	144714
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6888.9d3914817f3290827a64.js	36872
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7173.e28f63dbd553818e07d3.js	4479
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1168.0a95b9c93afe61ceb527.js	26320
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1410.e2302ff5f564d6e596bb.js	2697
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4405.43dab120fea32f30bbb9.js	49135
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4043.aa012978c41d1d1b2f14.js	2201
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6001.963601fcecb8b4c1d1f1.js	59265
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7702.c479c69f7a532f7b3fd5.js	1399
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5331.0cd3f010bb08983ec3fd.js	1168
+/opt/pyvenv-python-tool/share/jupyter/lab/static/581.2b878ed37172aced15b5.js	5315
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9192.db4337a516b7f38d1f89.js	6408
+/opt/pyvenv-python-tool/share/jupyter/lab/static/b418136e3b384baaadec.woff	12660
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9055.bd710a8db8883a836b59.js	8825
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3724.a4657dc16be2ffc49282.js	15939
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3962.50786e3ed9a01329a4a0.js	4493
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6595.6a1d7e1abbf186dd119b.js	3656
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7730.7e3a9fb140d2d55a51fc.js	184
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7426.c83966ccc62601d391bd.js	500283
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2727.6925b8cf1c5363f40138.js	24082
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6778.345e6ac9818e30317310.js	38829
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2145.be9ec610f29703694fcf.js	8099
+/opt/pyvenv-python-tool/share/jupyter/lab/static/5157.9c77dc27a251d4135876.js	102348
+/opt/pyvenv-python-tool/share/jupyter/lab/static/7318.397bf8e913e825b2be27.js	18889
+/opt/pyvenv-python-tool/share/jupyter/lab/static/627.7e292370f4d61d9e8648.js.LICENSE.txt	808
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4291.e5d8997127541f75fdaf.js	68937
+/opt/pyvenv-python-tool/share/jupyter/lab/static/8285.1eac7b7582569be1c3a8.js	1903
+/opt/pyvenv-python-tool/share/jupyter/lab/static/292.3f7844a129f16ec1ffbc.js	93529
+/opt/pyvenv-python-tool/share/jupyter/lab/static/870673df72e70f87c91a.woff	21480
+/opt/pyvenv-python-tool/share/jupyter/lab/static/795.47ab66037ef33f808f09.js	2769
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2090.abc86741318f76c3d726.js	1811
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3306.8bdc49ad1a7ca593a838.js	908
+/opt/pyvenv-python-tool/share/jupyter/lab/static/36e0d72d8a7afc696a3e.woff	1116
+/opt/pyvenv-python-tool/share/jupyter/lab/static/6436.af125ed24ec50754c661.js	11059
+/opt/pyvenv-python-tool/share/jupyter/lab/static/fc6ddf5df402b263cfb1.woff	14628
+/opt/pyvenv-python-tool/share/jupyter/lab/static/4452.2f8819684b96ecff5231.js	4873
+/opt/pyvenv-python-tool/share/jupyter/lab/static/cda59d6efffa685830fd.ttf	133988
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1608.61240f3db67d3d952790.js	3851
+/opt/pyvenv-python-tool/share/jupyter/lab/static/1452.4cc17f31511d1f9c6052.js	2550
+/opt/pyvenv-python-tool/share/jupyter/lab/static/2857.27a6e85f5c4c092ab8a2.js	11945
+/opt/pyvenv-python-tool/share/jupyter/lab/static/9041.df39043656c7233552e4.js	76745
+/opt/pyvenv-python-tool/share/jupyter/lab/static/3807.08a8fd824036c30b3746.js	2693
+/opt/pyvenv-python-tool/share/jupyter/labextensions/jupyterlab_pygments/package.json	5919
+/opt/pyvenv-python-tool/share/jupyter/labextensions/jupyterlab_pygments/install.json	199
+/opt/pyvenv-python-tool/share/jupyter/kernels/python3/logo-64x64.png	2180
+/opt/pyvenv-python-tool/share/jupyter/kernels/python3/kernel.json	294
+/opt/pyvenv-python-tool/share/jupyter/kernels/python3/logo-svg.svg	9605
+/opt/pyvenv-python-tool/share/jupyter/kernels/python3/logo-32x32.png	1084
+/opt/pyvenv-python-tool/share/applications/jupyterlab.desktop	227
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA	21529
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/RECORD	4762
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/plat_other.py	7054
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/util.py	708
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/exceptions.py	1006
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/__main__.py	949
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/compat.py	754
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/plat_gio.py	904
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/send2trash/__init__.py	781
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/version.py	22
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/py.typed	26
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/parser.py	5179
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/variables.py	2348
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/__main__.py	129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/ipython.py	1326
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/cli.py	6181
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/__init__.py	1230
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dotenv/main.py	13392
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/entry_points.txt	58
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/METADATA	7288
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/RECORD	10844
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_server_terminals-0.5.3.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_server_terminals-0.5.3.dist-info/METADATA	5643
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_server_terminals-0.5.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_server_terminals-0.5.3.dist-info/RECORD	1906
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/schema_registry.py	2762
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/cli.py	3087
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/traits.py	1818
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/validators.py	3060
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/_version.py	648
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/logger.py	16120
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/schema.py	5384
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/__init__.py	222
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/pytest_plugin.py	1778
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/utils.py	195
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_events/yaml.py	1031
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/idna-3.11.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/idna-3.11.dist-info/METADATA	8378
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/idna-3.11.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/idna-3.11.dist-info/RECORD	1392
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/WHEEL	109
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA	1658
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/LICENSE	1066
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/top_level.txt	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six-1.17.0.dist-info/RECORD	561
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/click-8.3.1.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA	2621
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/click-8.3.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/click-8.3.1.dist-info/RECORD	2531
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_argon2_cffi_bindings/_ffi.abi3.so	248600
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_argon2_cffi_bindings/__init__.py	86
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_argon2_cffi_bindings/_ffi_build.py	6289
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/WHEEL	184
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/METADATA	23082
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/LICENSE	1548
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/top_level.txt	7
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil-7.1.3.dist-info/RECORD	4500
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/translations_handler.py	2191
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/config.py	14297
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/workspaces_app.py	6296
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/rest-api.yml	9794
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/workspaces_handler.py	8151
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/process_app.py	1715
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/listings_handler.py	3676
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/licenses_app.py	2963
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/__main__.py	248
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/handlers.py	13517
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/test_utils.py	6794
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/server.py	663
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/settings_utils.py	17418
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/translation_utils.py	21973
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/spec.py	825
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/_version.py	535
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/__init__.py	924
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/pytest_plugin.py	4844
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/themes_handler.py	3560
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/process.py	9484
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/licenses_handler.py	10529
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/settings_handler.py	3645
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_server/app.py	4753
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/entry_points.txt	58
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA	2871
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/RECORD	3619
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/certifi/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/certifi/__main__.py	243
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/certifi/cacert.pem	283932
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/certifi/core.py	3394
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/certifi/__init__.py	94
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich_toolkit-0.17.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich_toolkit-0.17.0.dist-info/METADATA	1033
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich_toolkit-0.17.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich_toolkit-0.17.0.dist-info/RECORD	3667
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/version.py	22
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/py.typed	73
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/formatting.py	8508
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/core.py	33355
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/__init__.py	419
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/utils.py	5898
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/stack_data/serializing.py	6468
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/entry_points.txt	170
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/METADATA	1121
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/LICENSE	1535
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/RECORD	719
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/bccache.py	14061
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/compiler.py	74131
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/idtracking.py	10555
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/parser.py	40383
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/tests.py	5926
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/nodes.py	34579
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/_identifier.py	1958
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/runtime.py	34249
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/loaders.py	24055
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/debug.py	6297
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/ext.py	31875
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/exceptions.py	5071
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/lexer.py	29786
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/optimizer.py	1651
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/constants.py	1433
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/sandbox.py	15009
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/environment.py	61513
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/filters.py	55212
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/__init__.py	1928
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/defaults.py	1267
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/async_utils.py	2834
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/visitor.py	3557
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/utils.py	24129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/nativetypes.py	4210
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jinja2/meta.py	4397
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvicorn-0.38.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvicorn-0.38.0.dist-info/entry_points.txt	46
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvicorn-0.38.0.dist-info/METADATA	6787
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvicorn-0.38.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvicorn-0.38.0.dist-info/RECORD	6391
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_types.py	5456
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_format.py	15581
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/protocols.py	7198
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_keywords.py	14949
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/exceptions.py	15256
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/__main__.py	115
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_typing.py	630
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/cli.py	8445
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/validators.py	47147
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_utils.py	10659
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/__init__.py	3941
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema/_legacy_keywords.py	15191
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/WHEEL	92
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/METADATA	2812
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/LICENSE	1322
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/top_level.txt	13
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/RECORD	626
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_extensions.py	160429
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications/__init__.py	386
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications/_core.py	1140
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types-2.10.6.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types-2.10.6.dist-info/METADATA	4019
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types-2.10.6.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types-2.10.6.dist-info/RECORD	4059
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/version.py	19
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/ref_resolver.py	5577
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/draft07.py	4449
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/exceptions.py	1612
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/__main__.py	312
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/draft06.py	7892
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/indent.py	920
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/__init__.py	10347
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/draft04.py	30801
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastjsonschema/generator.py	13059
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/wcwidth.py	13551
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/table_vs15.py	5170
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/table_zero.py	409071
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/__init__.py	1076
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/unicode_versions.py	887
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/table_vs16.py	6857
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/wcwidth/table_wide.py	117873
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/pyproject.toml	24666
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/conftest.py	51045
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/_typing.py	14037
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/_version.py	23677
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/__init__.py	8658
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/_version_meson.py	79
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pandas/testing.py	313
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata/__init__.py	252
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata/zones	9102
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/script_code.py	2969
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/language_code.py	12273
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/epoch.py	2710
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/semver.py	2221
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/path.py	2060
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/cron.py	5078
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/currency_code.py	6218
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/ulid.py	2418
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/semantic_version.py	2156
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/mac_address.py	3589
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/phone_numbers.py	8689
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/payment.py	7397
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/s3.py	2038
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/color.py	20862
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/pendulum_dt.py	12720
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/routing_number.py	3077
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/__init__.py	23
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/coordinate.py	5847
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/domain.py	1978
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/timezone_name.py	6111
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/mongo_object_id.py	2274
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/country.py	9011
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_extra_types/isbn.py	4949
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyzmq-27.1.0.dist-info/WHEEL	157
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyzmq-27.1.0.dist-info/METADATA	6008
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyzmq-27.1.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyzmq-27.1.0.dist-info/RECORD	11314
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types/test_cases.py	6421
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types/__init__.py	13819
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/util.py	544
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/exceptions.py	4065
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/client.py	49833
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/cli.py	6781
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/_version.py	463
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/jsonutil.py	4612
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/__init__.py	164
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient/output_widget.py	4527
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/webcolors-25.10.0.dist-info/WHEEL	90
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/webcolors-25.10.0.dist-info/entry_points.txt	34
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/webcolors-25.10.0.dist-info/METADATA	2209
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/webcolors-25.10.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/webcolors-25.10.0.dist-info/RECORD	1309
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_common.py	28584
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_psosx.py	16541
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_psbsd.py	30701
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_pswindows.py	36532
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_pslinux.py	86321
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_psaix.py	18179
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_pssunos.py	24848
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/__init__.py	87789
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_psposix.py	7141
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/psutil/_psutil_linux.abi3.so	146080
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/comm/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/comm/base_comm.py	10525
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/comm/__init__.py	1442
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA	3259
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/RECORD	580
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_distutils_hack/override.py	44
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_distutils_hack/__init__.py	6128
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/WHEEL	90
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/entry_points.txt	83
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/METADATA	4507
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/top_level.txt	8
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython-9.8.0.dist-info/RECORD	26124
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/unistring.py	63208
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/style.py	6408
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/scanner.py	3092
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/modeline.py	1005
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/plugin.py	1891
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/util.py	10031
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/lexer.py	35109
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/__main__.py	348
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/sphinxext.py	7898
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/formatter.py	4366
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/filter.py	1910
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/cmdline.py	23536
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/regexopt.py	3072
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/__init__.py	2959
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/token.py	6226
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pygments/console.py	1718
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_handshake.py	6837
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_url.py	5154
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_ssl_compat.py	1800
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_dispatcher.py	4592
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_http.py	14676
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_abnf.py	15649
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_wsdump.py	7025
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_exceptions.py	2178
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_cookiejar.py	2346
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_logging.py	2254
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_utils.py	6983
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/__init__.py	958
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_socket.py	6046
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_app.py	23686
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websocket/_core.py	21856
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/entry_points.txt	317
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/REQUESTED	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/METADATA	16133
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab-4.1.8.dist-info/RECORD	104412
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/WHEEL	129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/METADATA	7277
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/RECORD	1002
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/version.py	538
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/paths.py	35856
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/command.py	15699
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/__main__.py	108
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/migrate.py	8658
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/troubleshoot.py	3191
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/application.py	9167
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_core/__init__.py	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_pygments-0.3.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_pygments-0.3.0.dist-info/REQUESTED	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_pygments-0.3.0.dist-info/METADATA	4366
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_pygments-0.3.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyterlab_pygments-0.3.0.dist-info/RECORD	1977
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dnspython-2.8.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dnspython-2.8.0.dist-info/METADATA	5680
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dnspython-2.8.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dnspython-2.8.0.dist-info/RECORD	19253
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2_cffi-25.1.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2_cffi-25.1.0.dist-info/METADATA	4119
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2_cffi-25.1.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2_cffi-25.1.0.dist-info/RECORD	1490
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/LICENSE.txt	1066
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/METADATA	6278
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/top_level.txt	10
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pure_eval-0.2.3.dist-info/RECORD	1214
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/api.py	42169
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/pkgconfig.py	4374
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/_embedding.h	18786
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/ffiplatform.py	3584
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/model.py	21797
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/verifier.py	11182
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/backend_ctypes.py	42454
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/_shimmed_dist_utils.py	2230
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/lock.py	747
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/vengine_gen.py	26939
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/commontypes.py	2805
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/cffi_opcode.py	5731
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/vengine_cpy.py	43881
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/parse_c_type.h	5976
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/setuptools_ext.py	9411
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/__init__.py	511
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/cparser.py	44790
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/recompiler.py	65509
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/_cffi_include.h	15055
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/_imp_emulation.py	2960
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/_cffi_errors.h	3908
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/cffi/error.py	877
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/matplotlib_inline/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/matplotlib_inline/config.py	4014
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/matplotlib_inline/__init__.py	316
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/matplotlib_inline/backend_inline.py	12171
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/port.yaml	2447
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/py.typed	26
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/_punycode.py	2373
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/ruler.py	9142
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/parser_block.py	3939
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/renderer.py	9947
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/parser_inline.py	5024
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/_compat.py	35
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/__init__.py	114
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/main.py	12732
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/token.py	6381
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/parser_core.py	1016
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/utils.py	5687
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/markdown_it/tree.py	11111
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/WHEEL	92
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/METADATA	1409
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/LICENSE	16725
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/top_level.txt	5
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/RECORD	780
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fqdn-1.5.1.dist-info/zip-safe	1
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/WHEEL	110
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/AUTHORS.rst	162
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/METADATA	1533
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/LICENSE	1074
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/top_level.txt	18
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3339_validator-0.1.4.dist-info/RECORD	769
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3986_validator.py	4395
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/WHEEL	92
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/entry_points.txt	56
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/METADATA	4036
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/LICENSE	1494
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/top_level.txt	11
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/Send2Trash-1.8.3.dist-info/RECORD	2575
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/metrics_core.py	15565
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/platform_collector.py	1879
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/registry.py	6206
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/metrics.py	27488
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/parser.py	12592
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/process_collector.py	3864
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/gc_collector.py	1514
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/samples.py	2348
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/core.py	930
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/context_managers.py	2343
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/mmap_dict.py	5393
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/exposition.py	30470
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/__init__.py	1935
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/values.py	5002
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/validation.py	4170
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/multiprocess.py	7563
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/decorator.py	15802
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/utils.py	907
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prometheus_client/asgi.py	1621
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax-1.1.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax-1.1.0.dist-info/METADATA	7688
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax-1.1.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax-1.1.0.dist-info/RECORD	1027
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/exceptions.py	76
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/converters.py	76
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/validators.py	76
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/filters.py	73
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/__init__.py	1183
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/setters.py	73
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attrs/__init__.pyi	9416
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipython_pygments_lexers.py	19656
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/bleach-6.3.0.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/bleach-6.3.0.dist-info/METADATA	31297
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/bleach-6.3.0.dist-info/top_level.txt	7
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/bleach-6.3.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/bleach-6.3.0.dist-info/RECORD	8764
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests-2.32.5.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA	4945
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests-2.32.5.dist-info/top_level.txt	9
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests-2.32.5.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests-2.32.5.dist-info/RECORD	2770
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbformat-5.10.4.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbformat-5.10.4.dist-info/entry_points.txt	81
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbformat-5.10.4.dist-info/METADATA	3627
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbformat-5.10.4.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbformat-5.10.4.dist-info/RECORD	6630
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ujson.cpython-311-x86_64-linux-gnu.so	106280
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/version.py	3985
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/json_schema.py	123653
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/generics.py	144
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/aliases.py	4937
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/config.py	44267
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/datetime_parse.py	150
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/mypy.py	58986
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/alias_generators.py	2124
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/fields.py	79194
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/functional_serializers.py	17151
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/errors.py	6002
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/error_wrappers.py	150
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/tools.py	141
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/_migration.py	12160
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/networks.py	42099
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/warnings.py	4802
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/validate_call_decorator.py	4389
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/class_validators.py	148
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/types.py	105431
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/validators.py	146
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/color.py	21481
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/env_settings.py	148
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/schema.py	142
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/type_adapter.py	35653
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/__init__.py	15812
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/main.py	84205
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/functional_validators.py	31839
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/typing.py	138
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/dataclasses.py	18936
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/annotated_handlers.py	4407
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/decorator.py	145
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/utils.py	141
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/json.py	140
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/root_model.py	6311
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic/parse.py	141
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/tree_templates.py	6139
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/load_grammar.py	54030
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/parser_frontends.py	11671
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/exceptions.py	10892
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/parse_tree_builder.py	14469
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/lexer.py	25022
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/grammar.py	4004
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/ast_utils.py	2117
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/reconstruct.py	3763
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/visitors.py	21578
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/tree_matcher.py	6774
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/common.py	3008
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/__init__.py	772
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/indenter.py	4324
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/utils.py	13350
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/lark.py	29588
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/lark/tree.py	8973
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/version.py	1763
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rdata.py	31977
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/serial.py	3606
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rdataclass.py	2984
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/name.py	42910
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/inet.py	5753
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/entropy.py	4247
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/transaction.py	22579
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/enum.py	3685
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/win32util.py	16799
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/opcode.py	2774
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/ipv4.py	2487
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/immutable.py	2017
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_asyncbackend.py	2403
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/set.py	9213
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/btree.py	30757
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/ttl.py	2937
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/dnssectypes.py	1799
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/message.py	69152
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/zone.py	53098
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rdataset.py	16627
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_trio_backend.py	8597
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_tls_util.py	528
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_asyncio_backend.py	9147
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/exception.py	5936
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/tsigkeyring.py	2650
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/query.py	61686
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/nameserver.py	10007
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/edns.py	17436
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/update.py	12236
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/reversename.py	3845
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/resolver.py	73967
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/wire.py	3155
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_features.py	2493
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_ddr.py	5247
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/tokenizer.py	23490
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/renderer.py	11500
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/asyncresolver.py	17728
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/asyncbackend.py	2796
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/btreezone.py	13082
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/__init__.py	1693
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_no_ssl.py	1502
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/grange.py	2154
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/namedict.py	4000
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rrset.py	9129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/flags.py	2750
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rcode.py	4181
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/ipv6.py	6517
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/dnssec.py	41356
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/node.py	12627
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/tsig.py	11576
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/_immutable_ctx.py	2478
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/rdatatype.py	7487
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/versioned.py	11841
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/e164.py	3937
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/asyncquery.py	32329
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/zonefile.py	28517
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/xfr.py	13637
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/dns/zonetypes.py	690
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/watchfiles-1.1.1.dist-info/WHEEL	129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/watchfiles-1.1.1.dist-info/entry_points.txt	48
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/watchfiles-1.1.1.dist-info/METADATA	4874
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/watchfiles-1.1.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/watchfiles-1.1.1.dist-info/RECORD	1748
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/version.py	19
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/exceptions.py	97
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/__init__.py	1631
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/main.py	33800
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_settings/utils.py	1271
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/inline_parser.py	12670
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/py.typed	181
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/markdown.py	4019
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/util.py	1978
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/__main__.py	3207
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/block_parser.py	16463
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/core.py	7600
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/list_parser.py	7606
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/helpers.py	4358
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/__init__.py	2938
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mistune/toc.py	3638
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/traitlets-5.14.3.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/traitlets-5.14.3.dist-info/METADATA	10691
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/traitlets-5.14.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/traitlets-5.14.3.dist-info/RECORD	3879
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/six.py	34703
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ujson-stubs/__init__.pyi	1606
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/api.py	2735
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/locales.py	160035
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/arrow.py	64985
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/parser.py	33345
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/util.py	3679
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/formatter.py	5139
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/_version.py	22
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/constants.py	3117
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/__init__.py	928
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/arrow/factory.py	11375
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/WHEEL	224
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/entry_points.txt	51
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/METADATA	6817
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/LICENSE	1514
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/top_level.txt	11
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets-15.0.1.dist-info/RECORD	7517
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/WHEEL	190
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA	2351
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/top_level.txt	11
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/RECORD	2706
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/api.py	6449
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/sessions.py	30503
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/hooks.py	733
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/structures.py	2912
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/_internal_utils.py	1495
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/help.py	3875
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/certs.py	429
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/exceptions.py	4260
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/auth.py	10186
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/status_codes.py	4322
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/compat.py	2142
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/__version__.py	435
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/__init__.py	5072
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/packages.py	904
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/adapters.py	26285
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/models.py	35510
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/cookies.py	18590
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/requests/utils.py	33213
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/debugpy/ThirdPartyNotices.txt	34345
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/debugpy/__main__.py	3187
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/debugpy/public_api.py	8384
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/debugpy/_version.py	498
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/debugpy/__init__.py	1041
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/errors.pyx	2774
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/loop.cpython-311-x86_64-linux-gnu.so	13119832
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/cbhandles.pyx	12298
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/pseudosock.pyx	5383
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/loop.pxd	6224
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/lru.pyx	2279
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/request.pyx	2259
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/sslproto.pxd	3534
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/loop.pyx	118650
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/_noop.py	86
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/cbhandles.pxd	752
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/request.pxd	143
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/server.pxd	394
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/dns.pyx	14562
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/server.pyx	3623
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/_version.py	576
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/_testbase.py	15570
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/__init__.py	7558
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/sslproto.pyx	35381
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/uvloop/loop.pyi	10504
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip/py.typed	286
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip/__pip-runner__.py	1444
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip/__main__.py	1198
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip/__init__.py	357
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich-14.2.0.dist-info/WHEEL	88
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich-14.2.0.dist-info/METADATA	18257
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich-14.2.0.dist-info/LICENSE	1056
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich-14.2.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rich-14.2.0.dist-info/RECORD	9652
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/stdio.py	7031
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/paths.py	1405
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/virtual_documents_shadow.py	7359
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/handlers.py	4727
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/types.py	9538
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/serverextension.py	3271
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/_version.py	78
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/constants.py	498
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/__init__.py	486
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/session.py	5908
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/non_blocking.py	1546
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/manager.py	10800
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jupyter_lsp/trait_types.py	1076
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/METADATA	2552
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/RECORD	1076
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core/_pydantic_core.cpython-311-x86_64-linux-gnu.so	4858472
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core/core_schema.py	154730
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core/_pydantic_core.pyi	44927
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pydantic_core/__init__.py	5115
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/entry_points.txt	66
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/METADATA	26006
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/top_level.txt	16
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/RECORD	2098
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/overrides.py	7505
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/signature.py	11785
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/enforce.py	2349
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/__init__.py	333
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/final.py	1511
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/overrides/typing_utils.py	14240
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rpds/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rpds/__init__.py	99
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rpds/rpds.cpython-311-x86_64-linux-gnu.so	1054384
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rpds/__init__.pyi	2602
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/terminado-0.18.1.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/terminado-0.18.1.dist-info/METADATA	5788
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/terminado-0.18.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/terminado-0.18.1.dist-info/RECORD	1301
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nest_asyncio.py	7490
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastapi_cli-0.0.16.dist-info/WHEEL	90
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastapi_cli-0.0.16.dist-info/entry_points.txt	34
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastapi_cli-0.0.16.dist-info/METADATA	6429
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastapi_cli-0.0.16.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/fastapi_cli-0.0.16.dist-info/RECORD	1786
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/asttokens-3.0.1.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/asttokens-3.0.1.dist-info/METADATA	4911
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/asttokens-3.0.1.dist-info/top_level.txt	10
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/asttokens-3.0.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/asttokens-3.0.1.dist-info/RECORD	1494
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata-2025.2.dist-info/WHEEL	109
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata-2025.2.dist-info/METADATA	1415
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata-2025.2.dist-info/top_level.txt	7
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata-2025.2.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/tzdata-2025.2.dist-info/RECORD	56828
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/validators.pyi	4082
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_version_info.pyi	209
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_make.py	104141
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/exceptions.py	1977
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/converters.py	3861
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_config.py	843
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/setters.pyi	584
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_version_info.py	2222
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/exceptions.pyi	539
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/validators.py	21458
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_typing_compat.pyi	469
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/filters.py	1795
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_cmp.py	4117
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_compat.py	2829
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/__init__.py	2057
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/converters.pyi	643
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/setters.py	1617
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_next_gen.py	26274
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_funcs.py	16479
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/filters.pyi	208
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/_cmp.pyi	368
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/attr/__init__.pyi	11309
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/version.py	293
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_configtool.pyi	24
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/conftest.py	8577
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_globals.py	3091
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_distributor_init.py	421
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_array_api_info.py	10354
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/exceptions.py	7800
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/version.pyi	358
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/dtypes.pyi	15544
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__init__.pxd	43758
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/matlib.py	10638
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/exceptions.pyi	791
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/dtypes.py	1312
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_distributor_init.pyi	27
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_pytesttester.pyi	497
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_configtool.py	1007
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__config__.pyi	2367
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__init__.py	25919
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd	47123
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_expired_attrs_2_0.py	3826
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_expired_attrs_2_0.pyi	1253
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_pytesttester.py	6328
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_array_api_info.pyi	4864
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/matlib.pyi	9602
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/_globals.pyi	280
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__init__.pyi	242020
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/numpy/__config__.py	5281
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax/syntax_helpers.py	4072
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax/syntax_rfc3987.lark	2742
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax/__init__.py	30
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax/CITATION.cff	1847
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/rfc3987_syntax/utils.py	136
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/shellchannel.py	1562
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/parentpoller.py	5188
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/control.py	301
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/debugger.py	27106
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/compiler.py	2875
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/heartbeat.py	4528
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/connect.py	4104
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/__main__.py	143
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/kernelapp.py	29802
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/trio_runner.py	2477
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/log.py	873
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/socket_pair.py	1696
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/displayhook.py	4076
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/eventloops.py	20405
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/ipkernel.py	26284
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/subshell.py	1023
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/_version.py	608
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/iostream.py	26613
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/_eventloop_macos.py	4550
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/jsonutil.py	5049
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/embed.py	2129
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/kernelspec.py	9808
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/__init__.py	161
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/subshell_manager.py	9160
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/thread.py	785
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/kernelbase.py	56757
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/utils.py	2246
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel/zmqshell.py	29392
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/METADATA	15046
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/RECORD	802
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel-7.1.0.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel-7.1.0.dist-info/METADATA	4477
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel-7.1.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ipykernel-7.1.0.dist-info/RECORD	7408
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA	2907
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/RECORD	3656
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/_legacy.py	2416
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/exceptions.py	1322
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/__main__.py	2332
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/_password_hasher.py	8839
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/low_level.py	6172
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/_utils.py	3751
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/__init__.py	1869
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/argon2/profiles.py	1650
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ptyprocess/ptyprocess.py	31686
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ptyprocess/util.py	2785
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ptyprocess/_fork_pty.py	2362
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ptyprocess/__init__.py	138
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/api.py	22668
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/version.py	115
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/legacy.py	2731
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/__main__.py	109
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/constant.py	42713
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/__init__.py	1590
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/cd.py	12522
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/md.py	20145
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/md.cpython-311-x86_64-linux-gnu.so	15912
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/models.py	12394
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/utils.py	12170
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/charset_normalizer/md__mypyc.cpython-311-x86_64-linux-gnu.so	282232
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/version.py	21
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/executing.py	40741
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/_exceptions.py	568
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/_utils.py	4119
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/__init__.py	831
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/_pytest_utils.py	354
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/executing/_position_node_finder.py	37681
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient-0.10.2.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient-0.10.2.dist-info/entry_points.txt	54
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient-0.10.2.dist-info/METADATA	8263
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient-0.10.2.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/nbclient-0.10.2.dist-info/RECORD	1666
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/rfc3339_validator.cpython-311.pyc	1623
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/nest_asyncio.cpython-311.pyc	13249
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/pandocfilters.cpython-311.pyc	13831
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/typing_extensions.cpython-311.pyc	179456
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/jupyter.cpython-311.pyc	433
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/jsonpointer.cpython-311.pyc	14639
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/rfc3986_validator.cpython-311.pyc	4313
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/ipython_pygments_lexers.cpython-311.pyc	18276
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/ipykernel_launcher.cpython-311.pyc	836
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/decorator.cpython-311.pyc	24068
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/__pycache__/six.cpython-311.pyc	46559
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/py.typed	26
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/_encode.py	2602
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/_format.py	626
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/_url.py	284
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/_decode.py	3004
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/__init__.py	547
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/mdurl/_parse.py	11374
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/cache.py	3823
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/cursor_shapes.py	3721
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/win32_types.py	5551
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/data_structures.py	212
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/history.py	9441
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/search.py	6951
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/keys.py	4916
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/enums.py	358
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/selection.py	1274
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/log.py	153
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/mouse_events.py	2473
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/renderer.py	29398
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/patch_stdout.py	9477
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/__init__.py	1376
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/document.py	40547
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/buffer.py	74513
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/validation.py	5807
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/token.py	121
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/utils.py	8631
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/prompt_toolkit/auto_suggest.py	5798
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/async_lru/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/async_lru/__init__.py	9425
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/entry_points.txt	39
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA	4277
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/top_level.txt	6
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/anyio-4.12.0.dist-info/RECORD	6256
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httptools/_version.py	575
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httptools/__init__.py	147
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/packaging-25.0.dist-info/WHEEL	82
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA	3281
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/packaging-25.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/packaging-25.0.dist-info/RECORD	2792
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/distutils-precedence.pth	151
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/cache.py	3674
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/debug.py	3504
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/__main__.py	1950
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/_compatibility.py	1491
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/parser_utils.py	11000
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/file_io.py	2337
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/common.py	668
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/__init__.py	1486
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/settings.py	3827
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jedi/utils.py	4680
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/WHEEL	92
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/entry_points.txt	125
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/REQUESTED	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/LICENSE.txt	1093
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/METADATA	4072
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/top_level.txt	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pip-23.0.1.dist-info/RECORD	76635
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/_yaml/__init__.py	1402
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/WHEEL	81
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt	1475
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA	1924
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/RECORD	1549
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/WHEEL	110
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/LICENSE.txt	1413
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/AUTHORS	113
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/METADATA	2251
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/top_level.txt	12
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/RECORD	798
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ace_tools/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/ace_tools/__init__.py	5425
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpx-0.28.1.dist-info/WHEEL	87
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpx-0.28.1.dist-info/entry_points.txt	37
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA	7052
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpx-0.28.1.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/httpx-0.28.1.dist-info/RECORD	3522
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/exceptions.py	1571
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/reference.py	3778
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/__init__.py	35125
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/tzfile.py	4723
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/tzinfo.py	19340
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/pytz/lazy.py	5404
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/WHEEL	91
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/entry_points.txt	750
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/METADATA	2032
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/LICENSE	1531
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/top_level.txt	6
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/INSTALLER	4
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/babel-2.17.0.dist-info/RECORD	95032
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/version.py	3204
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/py.typed	0
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/streams.py	4047
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/protocol.py	26537
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/http11.py	14925
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/speedups.c	5767
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/speedups.pyi	55
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/imports.py	2795
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/speedups.cpython-311-x86_64-linux-gnu.so	35488
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/datastructures.py	5615
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/exceptions.py	12811
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/client.py	13564
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/__main__.py	62
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/auth.py	568
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/server.py	21565
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/headers.py	16046
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/http.py	659
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/cli.py	5336
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/connection.py	323
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/frames.py	12759
+/opt/pyvenv-python-tool/lib/python3.11/site-packages/websockets/__init__.py	7058

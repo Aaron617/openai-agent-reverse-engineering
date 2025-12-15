@@ -1,0 +1,12 @@
+# /opt directory sizes
+Sun Dec 14 09:01:56 UTC 2025
+4.5K	/opt/entrypoint
+61K	/opt/apply_patch
+124K	/opt/python-tool
+14M	/opt/novnc
+39M	/opt/imagemagick
+57M	/opt/terminal-server
+156M	/opt/granola-cli
+378M	/opt/pyvenv-python-tool
+410M	/opt/nvm
+4.7G	/opt/pyvenv
