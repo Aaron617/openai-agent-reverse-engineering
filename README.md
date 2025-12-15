@@ -1,5 +1,8 @@
 # OpenAI Agent Container - Reverse Engineering Analysis
 
+<!-- [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/yourhandle.svg?style=social&label=Follow)](https://twitter.com/yourhandle)
+[![Xiaohongshu](https://img.shields.io/badge/小红书-Explore%20Agent%20Architecture-red)](https://www.xiaohongshu.com/user/profile/yourid) -->
+
 This repository contains a reverse-engineered analysis of OpenAI's agent container architecture, focusing on the observable runtime structure of a tool-using AI agent sandbox.
 
 ## Quick Overview
@@ -37,6 +40,13 @@ The OpenAI agent container is organized into four main directories with distinct
     - Integration with `artifact_tool` and `openpyxl` for cell operations
     - Style guidelines and formatting standards
     - Data validation and consistency checks
+
+### Build & Transformation Tools
+- **Granola CLI** (`/opt/granola-cli`) - Node.js-based build and transformation utility (410MB):
+  - Part of the Node.js toolchain managed via NVM
+  - Used for script transformation and build processes
+  - Particularly important for presentation and slide generation workflows
+  - Works in conjunction with the `pptxgenjs` helpers in `/home/oai/share/slides/`
 
 #### Skills System Architecture (Parallel to Claude Skills)
 The OpenAI agent's skills system is architecturally identical to Claude's skill framework:
@@ -85,3 +95,15 @@ See `opt_info/` for:
 - Directory trees
 - Python environment package listings
 - Large component analysis notes
+
+<!-- ## Reproduction Project
+
+Based on this reverse engineering analysis, we're building an open-source reproduction of the agent architecture. This will help the community understand how tool-using agents are implemented in practice.
+
+**Repository**: [https://github.com/yourorg/agent-container-reproduction](https://github.com/yourorg/agent-container-reproduction)
+
+The reproduction will include:
+- Multi-service architecture with FastAPI tool servers
+- Skills system with validation workflows
+- GUI stack for computer-use scenarios
+- Complete containerization with supervisord orchestration -->
