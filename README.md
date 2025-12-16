@@ -1,7 +1,6 @@
 # OpenAI Agent Container - Reverse Engineering Analysis
 
-<!-- [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/yourhandle.svg?style=social&label=Follow)](https://twitter.com/yourhandle)
-[![Xiaohongshu](https://img.shields.io/badge/小红书-Explore%20Agent%20Architecture-red)](https://www.xiaohongshu.com/user/profile/yourid) -->
+[![Notion Blog](https://img.shields.io/badge/Notion-Blog-blue)](https://hypnotic-mind-6bd.notion.site/OpenAI-s-Agent-Reverse-Engineering-2cb004aeb213807d9576cbd4b514fcb2?source=copy_link)
 
 This repository contains a reverse-engineered analysis of OpenAI's agent container architecture, focusing on the observable runtime structure of a tool-using AI agent sandbox.
 
